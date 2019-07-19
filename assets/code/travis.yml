@@ -1,0 +1,60 @@
+# use both Python and Java
+sudo: required
+dist: trusty
+language: python
+python:
+  - '3.6'
+before_install:
+  - jdk_switcher use oraclejdk8
+
+# download gradle
+before_script:
+  - wget https://services.gradle.org/distributions/gradle-4.6-bin.zip
+  - unzip -d $HOME gradle-4.6-bin.zip
+  - rm -rf gradle-4.6-bin.zip
+  - export PATH="$HOME/gradle-4.6/bin:$PATH"
+
+# install linting tools
+before_install:
+  - sudo apt-get update
+  - gem install mdl
+  - pip install proselint
+
+# install GatorGrader
+install:
+  - ./gatorgrader.sh --start
+  - cd gatorgrader
+  - pip3 install --upgrade pip
+  - pip3 install -r requirements.txt --cache-dir $HOME/.pip-cache
+  - cd ..
+
+# improve build speed
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.pip-cache/
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+
+# run checks
+script:
+  # Java
+  - gradle --version
+  - gradle clean check
+  - gradle build
+  # GatorGrader
+  - ./gatorgrader.sh --check
+  # Markdown
+  - mdl README.md
+  - mdl writing/reflection.md
+
+
+
+
+
+
+
+
+
