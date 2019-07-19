@@ -323,7 +323,7 @@ export default class Presentation extends Component {
           </Layout>
 
           <Text fit bold textColor="tertiary">
-            Gregory M. Kapfhammer
+            Madelyn M. Kapfhammer
           </Text>
 
           <Text bold textSize="1.5em" textColor="tertiary">
