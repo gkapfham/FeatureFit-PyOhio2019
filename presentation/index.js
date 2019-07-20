@@ -305,15 +305,11 @@ export default class Presentation extends Component {
         <Slide transition={['slide', 'spin']} bgColor="primary">
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="darktext">
-            A Hands-On Guide to
-          </Heading>
-
-          <Heading size={1} fit lineHeight={1.4} bold textColor="darktext">
-            Teaching Programming with
+            Finding Your Feature Fit 
           </Heading>
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
-            GitHub, Travis CI, and Python
+            How to pick a text editor for Python programming
           </Heading>
 
           <Layout>
@@ -323,11 +319,15 @@ export default class Presentation extends Component {
           </Layout>
 
           <Text fit bold textColor="tertiary">
+            Gregory M. Kapfhammer
+          </Text>
+
+          <Text fit bold textColor="tertiary">
             Madelyn M. Kapfhammer
           </Text>
 
           <Text bold textSize="1.5em" textColor="tertiary">
-            July 28 at PyOhio 2018
+            July 27 at PyOhio 2019
           </Text>
 
         </Slide>
@@ -388,6 +388,62 @@ export default class Presentation extends Component {
 
         </Slide>
         {/* Slide } */}
+
+        {/* Slide } */}
+        <Slide margin={-10} transitionDuration={0} transition={['']} bgColor="primary">
+
+          <Layout>
+            <BottomPaddedFill>
+              <Text bold fit textColor="darktext">
+                Hi! My name is
+              </Text>
+            </BottomPaddedFill>
+          </Layout>
+
+          <Layout>
+            <Fill>
+              <Text bold fit caps textColor="secondary">
+                Madelyn M. Kapfhammer
+              </Text>
+            </Fill>
+          </Layout>
+
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
+            <Fit>
+              <Twitter/>
+            </Fit>
+            <Fit>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                @MaddyKapfhammer
+              </Text>
+            </Fit>
+          </Layout>
+
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
+            <Fit>
+              <Web/>
+            </Fit>
+            <Fit>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                www.madelynkapfhammer.com
+              </Text>
+            </Fit>
+          </Layout>rq3
+
+        </Slide>
+        {/* Slide { */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
