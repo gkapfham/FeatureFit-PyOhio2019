@@ -256,7 +256,7 @@ export const Travis = () => (
 
 export const Twitter = () => (
   <div>
-    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color="#1565c0"/>
+    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color="#736F6E"/>
   </div>
 )
 
@@ -266,7 +266,7 @@ export const Trophy = () => (
 
 export const Web = () => (
   <div>
-    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color="#1565c0"/>
+    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color="#736F6E"/>
   </div>
 )
 
