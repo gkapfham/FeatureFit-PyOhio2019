@@ -80,20 +80,20 @@ var standardMargin = 40;
 var questionFont = 'Roboto Slab';
 
 {/* FontAwesome: Define the colors for the theme */}
-var primary = '#bdbdbd';
-var secondary =  '#d84315';
+var primary = '#FFF8DC';
+var secondary =  '#FF4D0B';
 var secondarylight = '#ff6e40';
-var tertiary = '#1565c0';
+var tertiary = '008B8B';
 var lighttext = '#9e9e9e';
 var darktext = '#212121';
 var lighttext = '#9e9e9e';
 
 {/* Spectacle: Define the colors for the theme */}
 const theme = createTheme({
-  primary: '#bdbdbd',
-  secondary: '#d84315',
+  primary: '#FFF8DC',
+  secondary: '#FF4D0B',
   secondarylight: '#ff6e40',
-  tertiary: '#1565c0',
+  tertiary: '#008B8B',
   darktext: '#212121',
   lighttext: '#9e9e9e'
 });
@@ -327,7 +327,7 @@ export default class Presentation extends Component {
           </Text>
 
           <Text bold textSize="1.5em" textColor="tertiary">
-            July 27 at PyOhio 2019
+            PyOhio 2019 
           </Text>
 
         </Slide>
@@ -339,7 +339,7 @@ export default class Presentation extends Component {
           <Layout>
             <BottomPaddedFill>
               <Text bold fit textColor="darktext">
-                Hi! My name is
+                Hello! It's Great to Meet You 
               </Text>
             </BottomPaddedFill>
           </Layout>
@@ -393,14 +393,6 @@ export default class Presentation extends Component {
         <Slide margin={-10} transitionDuration={0} transition={['']} bgColor="primary">
 
           <Layout>
-            <BottomPaddedFill>
-              <Text bold fit textColor="darktext">
-                Hi! My name is
-              </Text>
-            </BottomPaddedFill>
-          </Layout>
-
-          <Layout>
             <Fill>
               <Text bold fit caps textColor="secondary">
                 Madelyn M. Kapfhammer
@@ -440,7 +432,7 @@ export default class Presentation extends Component {
                 www.madelynkapfhammer.com
               </Text>
             </Fit>
-          </Layout>rq3
+          </Layout>
 
         </Slide>
         {/* Slide { */}
@@ -481,7 +473,7 @@ export default class Presentation extends Component {
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            Exploring Technologies
+            Exploring Text Editors 
           </Heading>
 
           <Layout>
