@@ -43,6 +43,10 @@ import Terminal from '../improved_modules/spectacle-terminal';
 {/* Load in a modified external plugin */}
 import CodeSlide from '../improved_modules/spectacle-code-slide';
 
+import { Backpack } from 'react-kawaii';
+import { Cat } from 'react-kawaii';
+import { Planet } from 'react-kawaii';
+
 {/* Use the preloader for the images */}
 import preloader from 'spectacle/lib/utils/preloader';
 
@@ -329,6 +333,20 @@ export default class Presentation extends Component {
           <Text bold textSize="1.5em" textColor="tertiary">
             PyOhio 2019
           </Text>
+
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+            <Cat size={400} mood="ko" color="#FF4D0B"/>
+            <Planet size={400} mood="ko" color="#FF4D0B"/>
+            <Backpack size={400} mood="lovestruck" color="#008B8B"/>
+          </Fill>
+        </Layout>
 
         </Slide>
         {/* Slide } */}
