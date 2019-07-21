@@ -270,6 +270,22 @@ export const Web = () => (
   </div>
 )
 
+export const Laptop = () => (
+    <FontAwesomeIcon icon={['fas', 'laptop']} size="2x" transform="down-3, left-2" color={darktext}/>
+)
+
+export const Fun = () => (
+    <FontAWesomeIcon icon={['far', 'smile-beam']} transform="grow-20" color={darktext}/>
+)
+
+// export const Vim = () => (
+//   <div>
+//     <FontAwesomeIcon icon={}
+//   </div>
+// )
+
+
+
 export default class Presentation extends Component {
   constructor() {
     super(...arguments);
@@ -310,6 +326,10 @@ export default class Presentation extends Component {
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
             How to pick a text editor for Python programming
+          </Heading>
+
+          <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
+            Python programming
           </Heading>
 
           <Layout>
@@ -434,6 +454,54 @@ export default class Presentation extends Component {
             </Fit>
           </Layout>
 
+          </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
+          <Heading fit textColor="darktext">
+            Why Care About a Text Editor? 
+          </Heading>
+
+          <Layout>
+            <Text height={standardHorizontalPadding*2}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
+            <Fill>
+              <Heading size={4} textColor="secondary" margin={standardMargin}>
+                Productivity 
+              </Heading>
+            </Fill>
+            <Fill>
+              <Heading size={4} textColor="secondary" margin={standardMargin}>
+                Valuable 
+              </Heading>
+            </Fill>
+            <Fill>
+              <Heading size={4} textColor="secondary" margin={standardMargin}>
+                Fun
+              </Heading>
+            </Fill>
+          </Layout>
+
+          </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
+          <Heading fit textColor="darktext">
+            A Fast Moving Field 
+          </Heading>
+
+          <Layout>
+            <Text height={standardHorizontalPadding*2}>
+              &nbsp;
+            </Text>
+          </Layout>
+
         </Slide>
         {/* Slide { */}
 
@@ -444,8 +512,8 @@ export default class Presentation extends Component {
             <Appear transitionDuration={100}>
               <Fill>
                 <Text bold fit textSize="3em" textColor="darktext">
-                  <Map/>
-                  Roadmap for this Talk
+                  <Laptop/>
+                  A Day in the Life
                 </Text>
               </Fill>
             </Appear>
@@ -455,16 +523,6 @@ export default class Presentation extends Component {
             <Text height={standardHorizontalPadding*2}>
               &nbsp;
             </Text>
-          </Layout>
-
-          <Layout>
-            <Appear transitionDuration={100}>
-              <Fill>
-                <Text bold textSize="2em" textColor="secondary">
-                  Ask and answer questions about effective instruction in the programming field
-                </Text>
-              </Fill>
-            </Appear>
           </Layout>
 
         </Slide>
@@ -508,7 +566,7 @@ export default class Presentation extends Component {
             </Fill>
             <Fill>
               <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Travis
+                Travis CI
               </Heading>
             </Fill>
             <Fill>
