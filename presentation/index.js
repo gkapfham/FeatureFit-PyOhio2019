@@ -170,22 +170,6 @@ library.add(fab, far, fas)
 
 {/* Declare all of the specific icons used in the slides */}
 
-export const Archive = () => (
-  <FontAwesomeIcon icon={['fas', 'cubes']} transform="grow-18" color={darktext}/>
-)
-
-export const Arrow = () => (
-  <FontAwesomeIcon icon={['fas', 'long-arrow-alt-right']} transform="grow-18" color={darktext}/>
-)
-
-export const DefectReports = () => (
-  <FontAwesomeIcon icon={['fas', 'bug']} transform="grow-20" color={darktext}/>
-)
-
-export const Deliverables = () => (
-  <FontAwesomeIcon icon={['fas', 'code']} transform="grow-20" color={darktext}/>
-)
-
 export const Comments = () => (
   <FontAwesomeIcon icon={['fas', 'comments']} size="2x" transform="down-2, left-5" color={darktext}/>
 )
@@ -194,83 +178,19 @@ export const CommentsShiftUp = () => (
   <FontAwesomeIcon icon={['fas', 'comments']} transform="grow-8, left-2" color={darktext}/>
 )
 
-export const Evaluation = () => (
-  <FontAwesomeIcon icon={['fas', 'arrows-alt']} transform="grow-18" color={darktext}/>
-)
-
-export const GitHub = () => (
-  <FontAwesomeIcon icon={['fab', 'github']} transform="grow-20" color={darktext}/>
-)
-
-export const Globe = () => (
-  <FontAwesomeIcon icon={['fas', 'globe']} transform="grow-18" color={darktext}/>
-)
-
-export const Gradle = () => (
-  <FontAwesomeIcon icon={['fas', 'th-large']} transform="grow-20" color={darktext}/>
-)
-
-export const Insights = () => (
-  <FontAwesomeIcon icon={['fas', 'lightbulb']} transform="grow-20" color={darktext}/>
-)
-
-export const Key = () => (
-  <FontAwesomeIcon icon={['fas', 'key']} transform="grow-18" color={darktext}/>
-)
-
-export const Map = () => (
-  <FontAwesomeIcon icon={['fas', 'map']} size="2x" transform="down-3, left-2" color={darktext}/>
-)
-
 export const ListIcon = () => (
   <FontAwesomeIcon icon={['fas', 'list']} transform="grow-18" color={darktext}/>
 )
 
-export const Prompt = () => (
-  <FontAwesomeIcon icon={['fas', 'terminal']} transform="grow-20" color={darktext}/>
-)
-
-export const PullRequests = () => (
-  <FontAwesomeIcon icon={['fas', 'code-branch']} transform="grow-20" color={darktext}/>
-)
-
-export const Python = () => (
-  <FontAwesomeIcon icon={['fab', 'python']} transform="grow-20" color={darktext}/>
-)
-
-export const RepoFull = () => (
-  <FontAwesomeIcon icon={['fas', 'square']} transform="grow-20" color={darktext}/>
-)
-
-export const RepoMinus = () => (
-  <FontAwesomeIcon icon={['fas', 'minus-square']} transform="grow-20" color={darktext}/>
-)
-
-export const Script = () => (
-  <FontAwesomeIcon icon={['fas', 'cube']} transform="grow-20" color={darktext}/>
-)
-
-export const Toggle = () => (
-  <FontAwesomeIcon icon={['fas', 'toggle-on']} transform="grow-20" color={darktext}/>
-)
-
-export const Travis = () => (
-  <FontAwesomeIcon icon={['fas', 'user-secret']} transform="grow-20" color={darktext}/>
-)
-
 export const Twitter = () => (
   <div>
-    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color="#736F6E"/>
+    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color='#008B8B'/>
   </div>
-)
-
-export const Trophy = () => (
-  <FontAwesomeIcon icon={['fas', 'trophy']} transform="grow-18" color={darktext}/>
 )
 
 export const Web = () => (
   <div>
-    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color="#736F6E"/>
+    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color='#008B8B'/>
   </div>
 )
 
@@ -278,17 +198,37 @@ export const Laptop = () => (
     <FontAwesomeIcon icon={['fas', 'laptop']} size="2x" transform="down-3, left-2" color={darktext}/>
 )
 
-export const Fun = () => (
-    <FontAWesomeIcon icon={['far', 'smile-beam']} transform="grow-20" color={darktext}/>
+export const Check = () => (
+  <FontAwesomeIcon icon={['fas','check']} transform="grow-20" color={darktext}/>
 )
 
-// export const Vim = () => (
-//   <div>
-//     <FontAwesomeIcon icon={}
-//   </div>
-// )
+export const Bolt = () => (
+  <FontAwesomeIcon icon={['fas','bolt']} transform="grow-20" color={darktext}/>
+)
 
+export const Smile = () => (
+  <FontAwesomeIcon icon={['fas','smile']} transform="grow-20" color={darktext}/>
+)
 
+export const Custom = () => (
+  <FontAwesomeIcon icon={['fas','paint-brush']} transform="grow-20" color={darktext}/>
+)
+
+export const Download = () => (
+  <FontAwesomeIcon icon={['fas','download']} transform="grow-20" color={darktext}/>
+)
+
+export const Codes = () => (
+  <FontAwesomeIcon icon={['fas','code']} transform="grow-20" color={darktext}/>
+)
+
+export const Heartbeat = () => (
+  <FontAwesomeIcon icon={['fas','heartbeat']} size="2x" transform="down-3, left-2" color={darktext}/>
+)
+
+export const Fast = () => (
+  <FontAwesomeIcon icon={['fas','fighter-jet']} size="10x" transform="grow-15, right-15, down-5" color={darktext}/>
+)
 
 export default class Presentation extends Component {
   constructor() {
@@ -329,11 +269,7 @@ export default class Presentation extends Component {
           </Heading>
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
-            How to pick a text editor for Python programming
-          </Heading>
-
-          <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
-            Python programming
+            How to pick a text editor for Python Programming
           </Heading>
 
           <Layout>
@@ -353,22 +289,7 @@ export default class Presentation extends Component {
           <Text bold textSize="1.5em" textColor="tertiary">
             PyOhio 2019
           </Text>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
-        <Layout>
-          <Fill>
-            <Cat size={400} mood="ko" color="#FF4D0B"/>
-            <Planet size={400} mood="ko" color="#FF4D0B"/>
-            <Backpack size={400} mood="lovestruck" color="#008B8B"/>
-          </Fill>
-        </Layout>
-
-        </Slide>
+          </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
@@ -377,7 +298,7 @@ export default class Presentation extends Component {
           <Layout>
             <BottomPaddedFill>
               <Text bold fit textColor="darktext">
-                Hello! It's Great to Meet You
+                Introduction Line Here 
               </Text>
             </BottomPaddedFill>
           </Layout>
@@ -423,13 +344,19 @@ export default class Presentation extends Component {
               </Text>
             </Fit>
           </Layout>
-
-        </Slide>
+          </Slide>
         {/* Slide } */}
 
         {/* Slide } */}
         <Slide margin={-10} transitionDuration={0} transition={['']} bgColor="primary">
-
+        
+        <Layout>
+            <BottomPaddedFill>
+              <Text bold fit textColor="darktext">
+                Hello! It's Great to Meet You! 
+              </Text>
+            </BottomPaddedFill>
+          </Layout>
           <Layout>
             <Fill>
               <Text bold fit caps textColor="secondary">
@@ -471,7 +398,6 @@ export default class Presentation extends Component {
               </Text>
             </Fit>
           </Layout>
-
           </Slide>
         {/* Slide } */}
 
@@ -482,76 +408,110 @@ export default class Presentation extends Component {
           </Heading>
 
           <Layout>
+          <Fill>
+            <Bolt/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Productivity 
+          </Text>
+          </Fill>
+        </Layout>
+        <Layout>
+          <Fill>
+            <Smile/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Fun
+          </Text>
+          </Fill>
+        </Layout>
+        <Layout>
+          <Fill>
+            <Check/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Effective Code
+          </Text>
+          </Fill>
+        </Layout>
+          </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
+        <Layout>
+          <Fill>
+          <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+            VS Code 
+          </Heading>
+          </Fill>
+          <Fill>
+          <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+            Vim
+          </Heading>
+          </Fill>
+        </Layout>
+        <Layout>
+          <Fill>
+            <Backpack size={400} mood="lovestruck" color="#008B8B"/>
+          </Fill>
+          <Fill>
+            <Cat size={400} mood="ko" color="#FF4D0B"/>
+          </Fill>
+        </Layout>
+
+          <Layout>
             <Text height={standardHorizontalPadding*2}>
               &nbsp;
             </Text>
           </Layout>
+          </Slide>
+        {/* Slide { */}
 
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Productivity 
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Valuable 
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Fun
-              </Heading>
-            </Fill>
-          </Layout>
-
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+        <Layout>
+          <Fit>
+          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
+            A Fast Paced Field
+          </Heading>
+          </Fit>
+          <Fit>
+            <Fast/>
+          </Fit>
+        </Layout>
+          
           </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            A Fast Moving Field 
+            Key Goals 
           </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-        </Slide>
-        {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-
-          <Layout>
-            <Appear transitionDuration={100}>
-              <Fill>
-                <Text bold fit textSize="3em" textColor="darktext">
-                  <Laptop/>
-                  A Day in the Life
-                </Text>
-              </Fill>
-            </Appear>
-          </Layout>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-        </Slide>
+          <Appear transitionDuration={100}>
+          <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
+            <ListItem margin={minimalHorizontalPadding}>Showcase Key Features</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Compare and Contrast</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Raise Awareness</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Depict the Thrill of Customization</ListItem>
+          </List>
+          </Appear>
+          </Slide>
         {/* Slide } */}
 
-        {/* Slide { */}
+        {/* Slide } */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            Exploring Text Editors
+            Evaluation Metrics  
           </Heading>
-
+          <Heading size={2} textColor="tertiary" margin={standardMargin}>
+            Ease of   
+          </Heading>
           <Layout>
             <Text height={standardHorizontalPadding*2}>
               &nbsp;
@@ -559,81 +519,36 @@ export default class Presentation extends Component {
           </Layout>
 
           <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <GitHub/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Travis/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Python/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                GitHub
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Travis CI
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Python
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
-        <Layout>
           <Fill>
-            <Heading margin={standardMargin*2} size={1}><GitHub/></Heading>
-            <Heading fit size={1} textColor="secondary">GitHub</Heading>
+            <Codes/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Use
+          </Text>
           </Fill>
         </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
         <Layout>
           <Fill>
-            <Heading margin={standardMargin*2} size={1}><Travis/></Heading>
-            <Heading fit size={1} textColor="secondary">Travis</Heading>
+            <Download/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Installation
+          </Text>
           </Fill>
         </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
         <Layout>
           <Fill>
-            <Heading margin={standardMargin*2} size={1}><Python/></Heading>
-            <Heading fit size={1} textColor="secondary">Python</Heading>
+            <Custom/>
+          </Fill>
+          <Fill>
+          <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+            Customization
+          </Text>
           </Fill>
         </Layout>
-
-        </Slide>
+          </Slide>
         {/* Slide } */}
 
         {/* SECTION: Motivation { */}
@@ -642,7 +557,12 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['slide']} bgColor="primary">
           <Layout>
             <Heading fit size={1} textColor="darktext">
-              <CommentsShiftUp/> Why would I
+              <Heartbeat/> A Day in the Life of a
+            </Heading>
+          </Layout>
+          <Layout>
+            <Heading fit size={1} textColor="darktext">
+              Python Developer
             </Heading>
           </Layout>
           <Layout>
@@ -652,954 +572,94 @@ export default class Presentation extends Component {
           </Layout>
           <Layout>
               <Heading caps fill size={1} lineHeight={1.2} textFont={questionFont} textAlign="left" textColor="tertiary">
-                decide to use GitHub and Travis CI?
+                Using open-source project Gator Grader
               </Heading>
           </Layout>
+          </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+            <Text fit size={1} textColor="secondary">Start Your</Text>
+            <Text fit size={1} textColor="secondary">Virtual Environment</Text>
+          </Fill>
+        </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+            <Text fit size={1} textColor="secondary">Install Packages</Text>
+          </Fill>
+        </Layout>
+        </Slide>
+        {/* Slide } */}
+        
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+            <Text fit size={1} textColor="secondary">Run Test Suites</Text>
+          </Fill>
+        </Layout>
+        </Slide>
+        {/* Slide } */}
+        
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+            <Text fit size={1} textColor="secondary">Go to Failed</Text>
+            <Text fit size={1} textColor="secondary">Test Suite and Case</Text>
+          </Fill>
+        </Layout>
+        </Slide>
+        {/* Slide } */}
+        
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+          <Text fit size={1} textColor="secondary">Find Definition of </Text>
+            <Text fit size={1} textColor="secondary">Failed Test</Text>
+          </Fill>
+        </Layout>
+        </Slide>
+        {/* Slide } */}
+        
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+        <Layout>
+          <Fill>
+          <Text fit size={1} textColor="secondary">Fix Your Bug</Text>
+          </Fill>
+        </Layout>
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
-            Important Goals
-          </Heading>
 
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Globe/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Key/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Evaluation/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Clear Status
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Key Ideas
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Fast Grading
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            Help students and faculty effectively collaborate
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
-            Deliverables to Check
-          </Heading>
-          <Appear transitionDuration={100}>
-          <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
-            <ListItem margin={minimalHorizontalPadding}>Source Code</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Technical Writing</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Commit Counts</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Commit Messages</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Program Output</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Data Files</ListItem>
+        <Appear transitionDuration={100}>
+          <List bold textColor="tertiary" textAlign="left" textSize="10em" margin={minimalHorizontalPadding} start={1}>
+            <ListItem margin={minimalHorizontalPadding}>Autocompletion</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Linting and Code Formatting</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Source Code Highlighting</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Snippets</ListItem>
           </List>
           </Appear>
-        </Slide>
+          </Slide>
         {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            Use industry standard tools in all course work
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            Develop new solutions in Python when necessary
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
-            Benefits of Python
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Archive/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Trophy/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <ListIcon/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Tools
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Options
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Testing
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* SECTION: Motivation } */}
-
-        {/* SECTION: Configure { */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <Layout>
-            <Heading fit size={1} textColor="darktext">
-              <CommentsShiftUp/> How should I
-            </Heading>
-          </Layout>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Layout>
-              <Heading caps fill size={1} lineHeight={1.2} textFont={questionFont} textAlign="left" textColor="tertiary">
-                setup and use GitHub Classroom?
-              </Heading>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Create a GitHub organization for your course</Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.CreateOrganization}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide>
-          <Heading fit size={1} textColor="darktext">
-            Now you have an empty organization
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.StartingOrganization}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide>
-          <Heading fit size={1} textColor="darktext">
-            Let GitHub Classroom access the organization
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.GrantAccess}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide>
-          <Heading fit size={1} textColor="darktext">
-            Create a student roster for the Classroom
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.CreateRoster}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide>
-          <Heading fit size={1} textColor="darktext">
-            Create an assignment for your course
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.StartCreatingAssignments}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            Create two repositories for each assignment
-          </Heading>
-        </Slide>
-        {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fit textColor="darktext">
-            Using Travis CI
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <RepoFull/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <RepoMinus/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Toggle/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Solution
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Starter
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Check
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            The starter repository should <em>not</em> pass the tests
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide', 'spin']}>
-          <Heading fit size={1} textColor="darktext">
-            Create an assignment using the starter
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.CreateAssignment}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']}>
-          <Heading fit size={1} textColor="darktext">
-            A classroom will contain many assignments
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.ExampleAssignments}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* SECTION: Configure } */}
-
-        {/* SECTION: Check { */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <Layout>
-            <Heading fit size={1} textColor="darktext">
-              <CommentsShiftUp/> How do you
-            </Heading>
-          </Layout>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Layout>
-              <Heading fill caps size={1} lineHeight={1.2} textFont={questionFont} textAlign="left" textColor="tertiary">
-               automatically check student submissions?
-              </Heading>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fit textColor="darktext">
-            Flexible Checking
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Prompt/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Travis/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Local
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Travis
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <CodeSlide
-          lang="js"
-          code={require('raw-loader!../assets/code/travis.yml')}
-          ranges={[
-            { loc: [0, 270], title: 'Let\'s Configure Travis CI',
-              note: 'Travis CI runs private builds for students' },
-            { loc: [0, 8], title: 'Use Java and Python',
-              note: 'Java is the main language for this course' },
-            { loc: [9, 15], title: 'Download Gradle',
-              note: 'Students use Gradle to build projects' },
-            { loc: [16, 21], title: 'Install Linters',
-              note: 'Ensure that technical writing is acceptable' },
-            { loc: [22, 29], title: 'Install GatorGrader',
-              note: 'GatorGrader is a sub-module in the repository' },
-            { loc: [40, 46], title: 'Run Gradle',
-              note: 'Use Gradle to build program and run tests' },
-            { loc: [46, 48], title: 'Run GatorGrader',
-              note: 'This script will repeatedly invoke GatorGrader' },
-            { loc: [48, 51], title: 'Run Linters',
-              note: 'Identify obvious technical writing mistakes' },
-          ]}/>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <CodeSlide
-          lang="js"
-          code={require('raw-loader!../assets/code/gatorgrader.sh')}
-          ranges={[
-            { loc: [0, 270], title: 'Let\'s Call GatorGrader',
-              note: 'Create a script for local use or on Travis' },
-            { loc: [9, 16], title: 'Decide if Check Passes',
-              note: 'The build passes if all of the checks pass' },
-            { loc: [53, 60], title: 'Define the Command Line',
-              note: 'Use getopt to parse the command-line arguments' },
-            { loc: [164, 169], title: 'Check that a File Exists',
-              note: 'GatorGrader ensures the existence of writing' },
-            { loc: [169, 175], title: 'Check for Comments',
-              note: 'GatorGrader ensures that students comment code' },
-            { loc: [179, 184], title: 'Check the Output',
-              note: 'GatorGrader checks the number of output lines' },
-            { loc: [189, 194], title: 'Inspect the Output',
-              note: 'GatorGrader inspects the output for patterns' },
-            { loc: [197, 201], title: 'Count the Commits',
-              note: 'GatorGrader ensures a minimal commit count' },
-          ]}/>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={[ 'spin', 'slide' ]} bgColor="primary">
-          <Heading fit size={1} lineHeigh={1.2} textColor="darktext">Running GatorGrader on a Correct Submission</Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Terminal title="gkapfham: ~(zsh)" output={[
-            './gatorgrader.sh --check',
-            '> Task :test',
-            'testone.TestCreditCard > testConstructCreditCardWithDefaultBalance PASSED',
-            'testone.TestCreditCard > testConstructCreditCardWithSpecifiedBalance PASSED',
-            'testone.TestCreditCard > testChargeWhenLimitSurpassedDefaultBalance PASSED',
-            '... additional passing test cases ...',
-            '> Task :run',
-            'Bank = California Savings',
-            'Account = 5391 0375 9387 5309',
-            'Balance = 408.0',
-            'Limit = 5000',
-            'New balance = 208.0',
-            '... additional output from program run ...',
-            '> Task :lint',
-            'mdl README.md PASSED',
-            'mdl reflection.md PASSED',
-            'proselint README.md PASSED',
-            'proselint reflection.md PASSED',
-            '> Task :check',
-            'Did CreditCard.java have at least 12 multiple-line comments? Yes',
-            'Did the running the program produce 20 lines of output? Yes',
-            'Did the program\'s output contain the fragment \'Bowman\'? Yes',
-            'Did the repository have at least additional 5 commits? Yes',
-            '... additional output from program checks ...',
-            'Overall, are there any mistakes in the assignment? No',
-          ]}
-          />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={[ 'spin', 'slide' ]} bgColor="primary">
-          <Heading fit size={1} lineHeigh={1.2} textColor="darktext">Running GatorGrader on an Incorrect Project</Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Terminal title="gkapfham: ~(zsh)" output={[
-            './gatorgrader.sh --check',
-            '> Task :test',
-            'testone.TestCreditCard > testConstructCreditCardWithDefaultBalance PASSED',
-            'testone.TestCreditCard > testConstructCreditCardWithSpecifiedBalance FAILED',
-            'testone.TestCreditCard > testChargeWhenLimitSurpassedDefaultBalance PASSED',
-            '... additional test case runs ...',
-            '> Task :run',
-            'Bank = California Savings',
-            'Account = 5391 0375 9387 5309',
-            'Balance = 408.0',
-            'Limit = 5000',
-            'New balance = 201.0',
-            '... additional output from program run ...',
-            '> Task :lint',
-            'mdl README.md PASSED',
-            'mdl reflection.md FAILED',
-            'proselint README.md PASSED',
-            'proselint reflection.md FAILED',
-            '> Task :check',
-            'Did CreditCard.java have at least 12 multiple-line comments? No',
-            'Did the running the program produce 20 lines of output? No',
-            'Did the program\'s output contain the fragment \'Bowman\'? Yes',
-            'Did the repository have at least additional 5 commits? No',
-            '... additional output from program checks ...',
-            'Overall, are there any mistakes in the assignment? Yes',
-          ]}
-          />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fit textColor="darktext">
-            Previous Courses and Topics
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Appear transitionDuration={100}>
-          <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
-            <ListItem margin={minimalHorizontalPadding}>Computational Expression</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Data Abstraction</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Web Development</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Software Engineering</ListItem>
-          </List>
-          </Appear>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Appear>
-          <Heading fit textColor="secondary">
-            Different topics, goals, languages, and levels
-          </Heading>
-          </Appear>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fit textColor="darktext">
-            Exciting New Features
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Script/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Arrow/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Gradle/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Script
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                &nbsp;
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Gradle
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* SECTION: Check } */}
-
-        {/* SECTION: Feedback { */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <Layout>
-            <Heading fit size={1} textColor="darktext">
-              <CommentsShiftUp/> What do the
-            </Heading>
-          </Layout>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Layout>
-              <Heading caps fill size={1} lineHeight={1.2} textFont={questionFont} textAlign="left" textColor="tertiary">
-               students think about this idea?
-              </Heading>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide', 'spin']} bgColor="primary">
-          <BlockQuote>
-            <SpacedQuote textSize="2em" textColor="darktext">
-
-              This approach ensures that the source code and GitHub
-              repositories are organized. It is easier for me to help the
-              students who are struggling in an introductory course.
-
-            </SpacedQuote>
-            <PlainCite bold caps textSize="2em">
-              Saejin Mahlau-Heinert
-            </PlainCite>
-          </BlockQuote>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <BlockQuote>
-            <SpacedQuote textSize="2em" textColor="darktext">
-
-              This tool suite made it easier for me to talk with students about
-              technical requirements. It helped me to make complex assignments
-              more accessible to students.
-
-            </SpacedQuote>
-            <PlainCite bold caps textSize="2em">
-              Maria Kim
-            </PlainCite>
-          </BlockQuote>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <BlockQuote>
-            <SpacedQuote textSize="2em" textColor="darktext">
-
-              GatorGrader encouraged me to add better code comments and try out
-              language constructs that I would not have otherwise investigated.
-              The tool was a big help this semester!
-
-            </SpacedQuote>
-            <PlainCite bold caps textSize="2em">
-              Samatha Darris
-            </PlainCite>
-          </BlockQuote>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <BlockQuote>
-            <SpacedQuote textSize="2em" textColor="darktext">
-
-              GatorGrader is like having a constant coach! I liked receiving
-              feedback on the quality of my source code and writing before
-              turning in the final version of my lab.
-
-            </SpacedQuote>
-            <PlainCite bold caps textSize="2em">
-              Anna Yeager
-            </PlainCite>
-          </BlockQuote>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* SECTION: Feedback } */}
-
-        {/* SECTION: Conclusion { */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']} bgColor="primary">
-          <Layout>
-            <Heading fit size={1} textColor="darktext">
-              <CommentsShiftUp/> How can we
-            </Heading>
-          </Layout>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Layout>
-            <Heading caps fill size={1} lineHeight={1.2} textFont={questionFont} textAlign="left" textColor="tertiary">
-              improve and study this approach?
-            </Heading>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
-            Ideas for Experiments
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Deliverables/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Insights/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Deliverables
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Insights
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            What code and concepts cause student frustration?
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            What features best support emerging programmers?
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading fill bold caps size={1} lineHeight={1.1} textColor="tertiary">
-            How do team members influence learning?
-          </Heading>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
-            Let's Collaborate
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding*2}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <PullRequests/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <DefectReports/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Pull Requests
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Bug Reports
-              </Heading>
-            </Fill>
-          </Layout>
-
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['spin', 'slide']}>
-          <Heading fit size={1} textColor="darktext">
-            GitHub Classroom developers are great!
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.ClassroomDefect}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']}>
-          <Heading fit size={1} textColor="darktext">
-            Review these slides on SpeakerDeck
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.SpeakerDeck}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']}>
-          <Heading fit size={1} textColor="darktext">
-            See slide source code on GitHub
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.PresentationRepo}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transition={['slide']}>
-          <Heading fit size={1} textColor="darktext">
-            Check out GatorGrader on GitHub!
-          </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          {/* TODO: Update the image when it is moved */}
-          <Image src={images.GatorGrader}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide bgColor="primary">
-          <Heading fit textColor="darktext">
-            Main Contributions
-          </Heading>
-
-          <Layout>
-            <Text height={standardHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Globe/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Key/>
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={1} textColor="secondary" margin={standardMargin}>
-                <Evaluation/>
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Layout>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Clear Status
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Key Ideas
-              </Heading>
-            </Fill>
-            <Fill>
-              <Heading size={4} textColor="secondary" margin={standardMargin}>
-                Fast Grading
-              </Heading>
-            </Fill>
-          </Layout>
-
-          <Heading size={4} textColor="darktext">
-            GatorEducator/GatorGrader
-          </Heading>
-
-        </Slide>
-        {/* Slide } */}
-
 
         {/* SECTION: Conclusion } */}
 
