@@ -348,7 +348,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide } */}
-        <Slide margin={-10} transitionDuration={0} transition={['']} bgColor="primary">
+        <Slide margin={-10} transitionDuration={0} transition={['slide']} bgColor="primary">
 
         <Layout>
             <BottomPaddedFill>
