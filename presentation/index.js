@@ -298,7 +298,7 @@ export default class Presentation extends Component {
           <Layout>
             <BottomPaddedFill>
               <Text bold fit textColor="darktext">
-                Hi! Glad to be back at PyOhio!
+                Hi! Glad to be Back at PyOhio!
               </Text>
             </BottomPaddedFill>
           </Layout>
