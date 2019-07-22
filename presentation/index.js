@@ -349,11 +349,11 @@ export default class Presentation extends Component {
 
         {/* Slide } */}
         <Slide margin={-10} transitionDuration={0} transition={['']} bgColor="primary">
-        
+
         <Layout>
             <BottomPaddedFill>
               <Text bold fit textColor="darktext">
-                Hello! It's Great to Meet You! 
+                Hello! It's Great to Meet You!
               </Text>
             </BottomPaddedFill>
           </Layout>
@@ -404,7 +404,7 @@ export default class Presentation extends Component {
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            Why Care About a Text Editor? 
+            Why Care About a Text Editor?
           </Heading>
 
           <Layout>
@@ -413,7 +413,7 @@ export default class Presentation extends Component {
           </Fill>
           <Fill>
           <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
-            Productivity 
+            Productivity
           </Text>
           </Fill>
         </Layout>
@@ -445,7 +445,7 @@ export default class Presentation extends Component {
         <Layout>
           <Fill>
           <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
-            VS Code 
+            VS Code
           </Heading>
           </Fill>
           <Fill>
@@ -483,14 +483,14 @@ export default class Presentation extends Component {
             <Fast/>
           </Fit>
         </Layout>
-          
+
           </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            Key Goals 
+            Key Goals
           </Heading>
           <Appear transitionDuration={100}>
           <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
@@ -507,10 +507,10 @@ export default class Presentation extends Component {
         {/* Slide } */}
         <Slide transition={['']} bgColor="primary">
           <Heading fit textColor="darktext">
-            Evaluation Metrics  
+            Evaluation Metrics
           </Heading>
           <Heading size={2} textColor="tertiary" margin={standardMargin}>
-            Ease of   
+            Ease of
           </Heading>
           <Layout>
             <Text height={standardHorizontalPadding*2}>
@@ -600,7 +600,7 @@ export default class Presentation extends Component {
         </Layout>
         </Slide>
         {/* Slide } */}
-        
+
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
@@ -611,7 +611,7 @@ export default class Presentation extends Component {
         </Layout>
         </Slide>
         {/* Slide } */}
-        
+
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
@@ -623,7 +623,7 @@ export default class Presentation extends Component {
         </Layout>
         </Slide>
         {/* Slide } */}
-        
+
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
@@ -635,7 +635,7 @@ export default class Presentation extends Component {
         </Layout>
         </Slide>
         {/* Slide } */}
-        
+
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
