@@ -269,7 +269,7 @@ export default class Presentation extends Component {
           </Heading>
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
-            How to pick a text editor for Python Programming
+            How to pick a text editor for Python programming
           </Heading>
 
           <Layout>
@@ -298,7 +298,7 @@ export default class Presentation extends Component {
           <Layout>
             <BottomPaddedFill>
               <Text bold fit textColor="darktext">
-                Introduction Line Here 
+                Hi! Glad to be back at PyOhio!
               </Text>
             </BottomPaddedFill>
           </Layout>
