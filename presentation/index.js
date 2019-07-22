@@ -459,7 +459,7 @@ export default class Presentation extends Component {
             <Backpack size={400} mood="lovestruck" color="#008B8B"/>
           </Fill>
           <Fill>
-            <Cat size={400} mood="ko" color="#FF4D0B"/>
+            <Cat size={400} mood="blissful" color="#FF4D0B"/>
           </Fill>
         </Layout>
 
