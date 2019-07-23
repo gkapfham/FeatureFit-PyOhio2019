@@ -227,7 +227,7 @@ export const Heartbeat = () => (
 )
 
 export const Fast = () => (
-  <FontAwesomeIcon icon={['fas', 'fighter-jet']} size="10x" transform="grow-15, right-15, down-5" color={darktext} />
+  <FontAwesomeIcon icon={['fas', 'fighter-jet']} size="8x" transform="grow-15, right-15, down-8" color={darktext} />
 )
 
 export default class Presentation extends Component {
@@ -480,7 +480,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
-          <Heading fit textColor="darktext">
+          <Heading fit textColor="secondary">
             Key Goals
           </Heading>
           <Appear transitionDuration={100}>
