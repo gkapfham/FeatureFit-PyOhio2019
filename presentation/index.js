@@ -199,15 +199,15 @@ export const Laptop = () => (
 )
 
 export const Check = () => (
-  <FontAwesomeIcon icon={['fas', 'check']} transform="grow-20" color={darktext} />
+  <FontAwesomeIcon icon={['fas', 'check']} transform="grow-10" color={darktext} />
 )
 
 export const Bolt = () => (
-  <FontAwesomeIcon icon={['fas', 'bolt']} transform="grow-20" color={darktext} />
+  <FontAwesomeIcon icon={['fas', 'bolt']} transform="grow-10" color={darktext} />
 )
 
 export const Smile = () => (
-  <FontAwesomeIcon icon={['fas', 'smile']} transform="grow-20" color={darktext} />
+  <FontAwesomeIcon icon={['fas', 'smile']} transform="grow-10" color={darktext} />
 )
 
 export const Custom = () => (
@@ -409,33 +409,30 @@ export default class Presentation extends Component {
 
           <Layout>
             <Fill>
-              <Bolt />
-            </Fill>
-            <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Productivity
-          </Text>
+              </Heading>
             </Fill>
-          </Layout>
-          <Layout>
+            </Layout>
+            <Layout>
             <Fill>
-              <Smile />
-            </Fill>
-            <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Fun
-          </Text>
+              </Heading>
+            </Fill>
+            </Layout>
+            <Layout>
+            <Fill>
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
+                Effective Code
+              </Heading>
             </Fill>
           </Layout>
+
           <Layout>
-            <Fill>
-              <Check />
-            </Fill>
-            <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
-                Effective Code
-          </Text>
-            </Fill>
+            <Text height={standardHorizontalPadding*.25}>
+              &nbsp;
+            </Text>
           </Layout>
         </Slide>
         {/* Slide } */}
@@ -503,43 +500,29 @@ export default class Presentation extends Component {
           <Heading fit textColor="darktext">
             Evaluation Metrics
           </Heading>
-          <Heading size={2} textColor="tertiary" margin={standardMargin}>
+          <Heading size={4} textColor="tertiary">
             Ease of
           </Heading>
-          <Layout>
-            <Text height={standardHorizontalPadding * 2}>
-              &nbsp;
-            </Text>
-          </Layout>
 
           <Layout>
             <Fill>
-              <Codes />
-            </Fill>
-            <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
-                Use
-          </Text>
-            </Fill>
-          </Layout>
-          <Layout>
-            <Fill>
-              <Download />
-            </Fill>
-            <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Installation
-          </Text>
+              </Heading>
             </Fill>
-          </Layout>
-          <Layout>
+            </Layout>
+            <Layout>
             <Fill>
-              <Custom />
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
+                Use
+              </Heading>
             </Fill>
+            </Layout>
+            <Layout>
             <Fill>
-              <Text fill bold caps size={10} lineHeight={5.1} textColor="secondary">
+              <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Customization
-          </Text>
+              </Heading>
             </Fill>
           </Layout>
         </Slide>
