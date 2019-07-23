@@ -184,13 +184,13 @@ export const ListIcon = () => (
 
 export const Twitter = () => (
   <div>
-    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color='#008B8B' />
+    <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color='#00897B' />
   </div>
 )
 
 export const Web = () => (
   <div>
-    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color='#008B8B' />
+    <FontAwesomeIcon icon={['fas', 'globe']} size="3x" transform="left-2" color='#00897B' />
   </div>
 )
 
@@ -553,7 +553,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading size={3} textColor="darktext">
+            <Heading size={3}textColor="darktext">
               Virutal Environments and Installing Packages
             </Heading>
           <Layout>
