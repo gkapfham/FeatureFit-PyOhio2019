@@ -413,15 +413,15 @@ export default class Presentation extends Component {
                 Productivity
               </Heading>
             </Fill>
-            </Layout>
-            <Layout>
+          </Layout>
+          <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Fun
               </Heading>
             </Fill>
-            </Layout>
-            <Layout>
+          </Layout>
+          <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Effective Code
@@ -430,7 +430,7 @@ export default class Presentation extends Component {
           </Layout>
 
           <Layout>
-            <Text height={standardHorizontalPadding*.25}>
+            <Text height={standardHorizontalPadding * .25}>
               &nbsp;
             </Text>
           </Layout>
@@ -510,15 +510,15 @@ export default class Presentation extends Component {
                 Installation
               </Heading>
             </Fill>
-            </Layout>
-            <Layout>
+          </Layout>
+          <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Use
               </Heading>
             </Fill>
-            </Layout>
-            <Layout>
+          </Layout>
+          <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
                 Customization
@@ -553,14 +553,12 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
-            <Heading textColor="darktext">
+            <Heading size={3} textColor="darktext">
               Virutal Environments and Installing Packages
             </Heading>
-          </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -613,14 +611,12 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
-            <Heading textColor="darktext">
+            <Heading size={3} textColor="darktext">
               Automated Testing and Debugging
             </Heading>
-          </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -648,29 +644,28 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transition={['']} bgColor="primary">
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
-          <Appear transitionDuration={100}>
-            <List bold textColor="tertiary" textAlign="left" textSize="10em" margin={minimalHorizontalPadding} start={1}>
-              <ListItem margin={minimalHorizontalPadding}>Autocompletion</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Linting and Code Formatting</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Source Code Highlighting</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Snippets</ListItem>
-            </List>
-          </Appear>
+          <Layout>
+            <Fill>
+              <Heading fit size={2} textColor="secondary">Autocompletion </Heading>
+              <Heading fit size={2} textColor="secondary">Linting and Code Formatting</Heading>
+              <Heading fit size={2} textColor="secondary">Source Code Highlighting </Heading>
+              <Heading fit size={2} textColor="secondary">Snippets</Heading>
+            </Fill>
+          </Layout>
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
             <Heading textColor="darktext">
               Autocompletion
             </Heading>
-          </Layout>
+
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -688,14 +683,12 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
-            <Heading textColor="darktext">
+            <Heading size={3} textColor="darktext">
               Linting and Code Formatting
             </Heading>
-          </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -713,14 +706,12 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
-            <Heading textColor="darktext">
-              Source Code Highlighting 
+            <Heading size={3} textColor="darktext">
+              Source Code Highlighting
             </Heading>
-          </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -738,14 +729,12 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Layout>
             <Heading textColor="darktext">
               Snippets
             </Heading>
-          </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
