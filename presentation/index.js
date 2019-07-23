@@ -85,20 +85,20 @@ var questionFont = 'Roboto Slab';
 
 {/* FontAwesome: Define the colors for the theme */ }
 var primary = '#FFF8DC';
-var secondary = '#FF4D0B';
+var secondary = '#F4511E';
 var secondarylight = '#ff6e40';
-var tertiary = '008B8B';
+var tertiary = '#00897B';
 var lighttext = '#9e9e9e';
-var darktext = '#212121';
+var darktext = '#424242';
 var lighttext = '#9e9e9e';
 
 {/* Spectacle: Define the colors for the theme */ }
 const theme = createTheme({
   primary: '#FFF8DC',
-  secondary: '#FF4D0B',
+  secondary: '#F4511E',
   secondarylight: '#ff6e40',
-  tertiary: '#008B8B',
-  darktext: '#212121',
+  tertiary: '#00897B',
+  darktext: '#424242',
   lighttext: '#9e9e9e'
 });
 
@@ -456,10 +456,10 @@ export default class Presentation extends Component {
           </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#008B8B" />
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF4D0B" />
+              <Cat size={400} mood="blissful" color="#FF8A65" />
             </Fill>
           </Layout>
         </Slide>
@@ -558,18 +558,29 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Install Packages</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Layout>
             <Heading textColor="darktext">
-              Virutal Environments
+              Virutal Environments and Installing Packages
             </Heading>
           </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#008B8B" />
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF4D0B" />
+              <Cat size={400} mood="blissful" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
@@ -581,17 +592,6 @@ export default class Presentation extends Component {
           </Layout>
         </Slide>
         {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
-          <Layout>
-            <Fill>
-              <Text fit size={1} textColor="secondary">Install Packages</Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
@@ -629,6 +629,31 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Layout>
+            <Heading textColor="darktext">
+              Automated Testing and Debugging
+            </Heading>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
           <Layout>
@@ -652,6 +677,106 @@ export default class Presentation extends Component {
           </Appear>
         </Slide>
         {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Layout>
+            <Heading textColor="darktext">
+              Autocompletion
+            </Heading>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Layout>
+            <Heading textColor="darktext">
+              Linting and Code Formatting
+            </Heading>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Layout>
+            <Heading textColor="darktext">
+              Source Code Highlighting 
+            </Heading>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Layout>
+            <Heading textColor="darktext">
+              Snippets
+            </Heading>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="##4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
 
         {/* SECTION: Conclusion } */}
 
