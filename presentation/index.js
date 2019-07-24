@@ -68,6 +68,9 @@ const images = {
   SpeakerDeck: require('../assets/images/SpeakerDeck.png'),
   PresentationRepo: require('../assets/images/PresentationRepo.png'),
   GatorGrader: require('../assets/images/GatorGrader.png'),
+  BlackFormatting: require('../assets/images/FFBlackFormatting.gif'),
+  TabCompletion: require('../assets/images/FFTabComplete.gif'),
+  Linting: require('../assets/images/FFLinting.gif'),
 };
 preloader(images);
 
@@ -453,7 +456,7 @@ export default class Presentation extends Component {
           </Layout>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+              <Backpack size={400} mood="blissful" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -529,6 +532,48 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading fit textColor="secondary">
+            The Basics
+          </Heading>
+          <Heading size={4} textColor="tertiary">
+            Visual Studio Code
+          </Heading>
+          <Layout>
+            <Fill>
+              <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
+                <ListItem margin={minimalHorizontalPadding}>Open Command Palette: Ctrl+Shift+P</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Configure in User Settings</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>IntelliSense: Built-in Language Server Protocol</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Must Download Python Extension</ListItem>
+              </List>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading fit textColor="secondary">
+            The Basics
+          </Heading>
+          <Heading size={4} textColor="tertiary">
+            Vim
+          </Heading>
+          <Layout>
+            <Fill>
+              <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
+                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
+              </List>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
           <Layout>
@@ -553,8 +598,8 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading size={3}textColor="darktext">
-              Virutal Environments and Installing Packages
+          <Heading size={3} textColor="darktext">
+            Virutal Environments and Installing Packages
             </Heading>
           <Layout>
             <Fill>
@@ -611,8 +656,8 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading size={3} textColor="darktext">
-              Automated Testing and Debugging
+          <Heading size={3} textColor="darktext">
+            Automated Testing and Debugging
             </Heading>
           <Layout>
             <Fill>
@@ -658,9 +703,21 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Tab Completion</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.TabCompletion}/>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading textColor="darktext">
-              Autocompletion
+          <Heading textColor="darktext">
+            Autocompletion
             </Heading>
 
           <Layout>
@@ -682,9 +739,33 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Black Code Formatting</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.BlackFormatting}/>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Flake8 Linting</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.Linting}/>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading size={3} textColor="darktext">
-              Linting and Code Formatting
+          <Heading size={3} textColor="darktext">
+            Linting and Code Formatting
             </Heading>
           <Layout>
             <Fill>
@@ -706,8 +787,8 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading size={3} textColor="darktext">
-              Source Code Highlighting
+          <Heading size={3} textColor="darktext">
+            Source Code Highlighting
             </Heading>
           <Layout>
             <Fill>
@@ -729,8 +810,8 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-            <Heading textColor="darktext">
-              Snippets
+          <Heading textColor="darktext">
+            Snippets
             </Heading>
           <Layout>
             <Fill>
