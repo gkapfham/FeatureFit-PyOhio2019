@@ -233,6 +233,10 @@ export const Fast = () => (
   <FontAwesomeIcon icon={['fas', 'fighter-jet']} size="8x" transform="grow-15, right-15, down-8" color={darktext} />
 )
 
+export const HeartGiant = () => (
+  <FontAwesomeIcon icon={['fas', 'heart']} transform="grow-40" color={tertiary} />
+)
+
 export default class Presentation extends Component {
   constructor() {
     super(...arguments);
@@ -483,7 +487,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
-          <Heading fit textColor="secondary">
+          <Heading fit size="2" textColor="secondary">
             Key Goals
           </Heading>
           <Appear transitionDuration={100}>
@@ -710,7 +714,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.TabCompletion}/>
+          <Image src={images.TabCompletion} />
         </Slide>
         {/* Slide } */}
 
@@ -746,7 +750,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.BlackFormatting}/>
+          <Image src={images.BlackFormatting} />
         </Slide>
         {/* Slide } */}
 
@@ -758,7 +762,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.Linting}/>
+          <Image src={images.Linting} />
         </Slide>
         {/* Slide } */}
 
@@ -834,9 +838,72 @@ export default class Presentation extends Component {
         {/* SECTION: Conclusion } */}
 
         {/* Slide { */}
-        <Slide bgColor="primary">
+        <Slide align="center center" bgColor="primary">
+          <Heading fit bold caps size={6} textColor="secondary">
+            Want More?
+        </Heading>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            Like Our Tweets and We'll Give You a
+          </Text>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            FREE Blog Post
+          </Text>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            On All Things VS Code and Vim
+          </Text>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            And a Little Bit About What it's Like to
+          </Text>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            Work as a Father Daughter Duo
+          </Text>
+
+          <Layout>
+            <Fill>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                @GregKapfhammer
+              </Text>
+            </Fill>
+          </Layout>
+
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
+            <Fill>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                @MaddyKapfhammer
+              </Text>
+            </Fill>
+          </Layout>
         </Slide>
         {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['slide']} align="center center" bgColor="primary">
+
+          <Layout>
+            <Fill>
+              <Heading margin={standardMargin * 3} size={1}><HeartGiant /></Heading>
+              <Heading fit size={1} textColor="secondary">Just 100 Likes</Heading>
+              <Text fill bold textColor="darktext">come on, you can do it</Text>
+              <Text fill bold textColor="darktext">it's not that hard</Text>
+            </Fill>
+          </Layout>
+
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide } */}
+        <Heading>
+          Greg turned Maddy Slide Here
+        </Heading>
+        {/* Slide } */}
+
+
 
       </Deck>
     );
