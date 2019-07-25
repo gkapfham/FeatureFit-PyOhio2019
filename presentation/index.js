@@ -636,6 +636,27 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading fit textColor="secondary">
+            GatorGrader
+          </Heading>
+          <Heading size={4} textColor="tertiary">
+            Open-source tool to check the work of writers and programmers
+          </Heading>
+          <Layout>
+            <Fill>
+              <List bold textColor={darktext} textAlign="left" textSize="1em" start={1}>
+                <ListItem margin={minimalHorizontalPadding}>On GitHub at GatorEducator/gatorgrader</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv shell: Enter a virtual environment</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv run test: Run the test suite</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv run cover: Check for full coverage</ListItem>
+              </List>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Open Your Project</Heading>
           <Layout>
