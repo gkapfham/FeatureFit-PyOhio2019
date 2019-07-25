@@ -110,30 +110,8 @@ const PaddedFill = styled(Fill)`
 `;
 
 {/* Create a emotion-styled Fill with padding */ }
-const LeftShiftPaddedFill = styled(Fill)`
-  margin-right: 110px;
-  // NOTE: comment out next line to get better printing
-  margin-left: -100px;
-  justify-content: space-between;
-`;
-
-{/* Create a emotion-styled Fill with padding */ }
-const BigLeftShiftPaddedFill = styled(Fill)`
-  margin-right: 110px;
-  // NOTE: comment out next line to get better printing
-  margin-left: -120px;
-  justify-content: space-between;
-`;
-
-{/* Create a emotion-styled Fill with padding */ }
 const BottomPaddedFill = styled(Fill)`
   margin-bottom: 40px;
-  justify-content: space-between;
-`;
-
-{/* Create a emotion-styled Fit with padding */ }
-const PaddedFit = styled(Fit)`
-  margin-right: 100px;
   justify-content: space-between;
 `;
 
