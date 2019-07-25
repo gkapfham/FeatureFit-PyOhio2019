@@ -127,18 +127,6 @@ library.add(fab, far, fas)
 
 {/* Declare all of the specific icons used in the slides */ }
 
-export const Comments = () => (
-  <FontAwesomeIcon icon={['fas', 'comments']} size="2x" transform="down-2, left-5" color={darktext} />
-)
-
-export const CommentsShiftUp = () => (
-  <FontAwesomeIcon icon={['fas', 'comments']} transform="grow-8, left-2" color={darktext} />
-)
-
-export const ListIcon = () => (
-  <FontAwesomeIcon icon={['fas', 'list']} transform="grow-18" color={darktext} />
-)
-
 export const Twitter = () => (
   <div>
     <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" transform="left-2" color='#00897B' />
