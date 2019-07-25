@@ -103,28 +103,6 @@ const theme = createTheme({
   lighttext: '#9e9e9e'
 });
 
-{/* Create a emotion-styled PlainCite without italics */ }
-const PlainCite = styled(Cite)`
-  font-style: normal;
-  margin-left: 30px;
-`;
-
-{/* Create a emotion-styled SpacedBlockQuote that breathes */ }
-const SpacedQuote = styled(Quote)`
-  line-height: 1.1;
-`;
-
-{/* Create a emotion-styled UpHeading that shifts up */ }
-const UpHeading = styled(Heading)`
-  margin-top: -50px;
-`;
-
-{/* Create a emotion-styled BigImage that shifts left */ }
-const BigImage = styled(Image)`
-  max-width: 110%;
-  width: 110%;
-`;
-
 {/* Create a emotion-styled Fill with padding */ }
 const PaddedFill = styled(Fill)`
   margin-right: 110px;
