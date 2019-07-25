@@ -559,21 +559,9 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={2} textColor="darktext">Start Vim Text Editor</Heading>
+          <Heading fill size={3} textColor="darktext">Enable Tab Completion</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.VimExample} />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Enable Tab Completion</Heading>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.5*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -582,10 +570,10 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Enable Flake8 Linting</Heading>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={4} textColor="darktext">Enable Flake8 Code Linting</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.5*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -612,7 +600,20 @@ export default class Presentation extends Component {
             </Fill>
           </Layout>
         </Slide>
+        {/* Slide } */}
+
         {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={2} textColor="darktext">Start Vim Text Editor</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.VimExample} />
+        </Slide>
+        {/* Slide } */}
+
 
         {/* Slide { */}
         <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
