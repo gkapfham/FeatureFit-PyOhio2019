@@ -469,23 +469,19 @@ export default class Presentation extends Component {
           <Heading fit textColor="darktext">
             Evaluation Metrics
           </Heading>
-
           <Layout>
             <Text height={standardHorizontalPadding * .5}>
               &nbsp;
             </Text>
           </Layout>
-
           <Heading size={2} textColor="tertiary">
             Ease of ...
           </Heading>
-
           <Layout>
             <Text height={standardHorizontalPadding * .25}>
               &nbsp;
             </Text>
           </Layout>
-
           <Layout>
             <Fill>
               <Heading size={2} textColor="secondary">
@@ -504,6 +500,24 @@ export default class Presentation extends Component {
             <Fill>
               <Heading size={2} textColor="secondary">
                 Customization
+              </Heading>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading size={1} textColor="secondary">
+                Try multiple editors!
+              </Heading>
+              <Text height={standardHorizontalPadding * .25}>
+                &nbsp;
+              </Text>
+              <Heading size={1} textColor="tertiary">
+                Which one did you like best? Why?
               </Heading>
             </Fill>
           </Layout>
@@ -614,7 +628,6 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
               <Text fit size={1} textColor="secondary">Start Your</Text>
