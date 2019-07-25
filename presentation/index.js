@@ -469,27 +469,40 @@ export default class Presentation extends Component {
           <Heading fit textColor="darktext">
             Evaluation Metrics
           </Heading>
-          <Heading size={4} textColor="tertiary">
-            Ease of
+
+          <Layout>
+            <Text height={standardHorizontalPadding * .5}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Heading size={2} textColor="tertiary">
+            Ease of ...
           </Heading>
 
           <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary">
                 Installation
               </Heading>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary">
                 Use
               </Heading>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary">
                 Customization
               </Heading>
             </Fill>
