@@ -72,7 +72,7 @@ const images = {
   Typecast: require('../assets/images/Typecast.gif'),
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
-  VimExample: require('../assets/images/open-status.gif'),
+  VimBasics: require('../assets/images/vim-basics.gif'),
 };
 preloader(images);
 
@@ -604,13 +604,13 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={2} textColor="darktext">Start Vim Text Editor</Heading>
+          <Heading fit size={2} textColor="darktext">Overview of Neovim's Configuration File</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.VimExample} />
+          <Image src={images.VimBasics} />
         </Slide>
         {/* Slide } */}
 
