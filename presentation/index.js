@@ -72,6 +72,7 @@ const images = {
   Typecast: require('../assets/images/Typecast.gif'),
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
+  VimExample: require('../assets/images/open-status.gif'),
 };
 preloader(images);
 
@@ -507,7 +508,7 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Enable Black Code Formatting</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -515,6 +516,18 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.BlackFormatting} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={2} textColor="darktext">Start Vim Text Editor</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.VimExample} />
         </Slide>
         {/* Slide } */}
 
