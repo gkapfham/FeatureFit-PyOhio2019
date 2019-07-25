@@ -620,7 +620,7 @@ export default class Presentation extends Component {
             Development Tools
           </Heading>
           <Heading size={4} textColor="tertiary">
-            Used in VS Code and Neovim
+            Used in both VS Code and Neovim
           </Heading>
           <Layout>
             <Fill>
@@ -657,8 +657,8 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Open Your Project</Heading>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Open Your Project in VS Code</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
