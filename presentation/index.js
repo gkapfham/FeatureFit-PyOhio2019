@@ -625,10 +625,10 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
-                <ListItem margin={minimalHorizontalPadding}>Vim or Neovim in a terminal with tmux</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Configure editor through .vimrc or init.vim</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Install plugins with a plugin manager</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Add configuration options for plugins</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pyenv: Download and manage versions of Python</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv: Dependencies and virtual environments</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pytest: Run test cases and report their status</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>coverage: Track statement and branch execution</ListItem>
               </List>
             </Fill>
           </Layout>
