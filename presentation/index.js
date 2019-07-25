@@ -592,10 +592,10 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
-                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Something Here</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Vim or Neovim in a terminal with tmux</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Configure editor through .vimrc or init.vim</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Install plugins with a plugin manager</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Add configuration options for plugins</ListItem>
               </List>
             </Fill>
           </Layout>
