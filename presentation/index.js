@@ -445,16 +445,20 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
-          <Heading fit size="2" textColor="secondary">
+          <Heading fit size="3" textColor="secondary">
             Key Goals
           </Heading>
+          <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
           <Appear transitionDuration={100}>
             <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
               <ListItem margin={minimalHorizontalPadding}>Showcase Key Features</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Compare and Contrast</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Raise Awareness</ListItem>
+              <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Editors</ListItem>
               <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Depict the Thrill of Customization</ListItem>
+              <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
             </List>
           </Appear>
         </Slide>
