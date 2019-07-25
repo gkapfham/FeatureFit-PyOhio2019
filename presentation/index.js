@@ -45,7 +45,6 @@ import CodeSlide from '../improved_modules/spectacle-code-slide';
 
 import { Backpack } from 'react-kawaii';
 import { Cat } from 'react-kawaii';
-import { Planet } from 'react-kawaii';
 
 {/* Use the preloader for the images */ }
 import preloader from 'spectacle/lib/utils/preloader';
@@ -71,6 +70,18 @@ const images = {
   BlackFormatting: require('../assets/images/FFBlackFormatting.gif'),
   TabCompletion: require('../assets/images/FFTabComplete.gif'),
   Linting: require('../assets/images/FFLinting.gif'),
+  FixHardcode: require('../assets/images/FixHardcode.gif'),
+  FuzzyFile: require('../assets/images/FuzzyFile.gif'),
+  OpenAndTests: require('../assets/images/OpenAndTests1.gif'),
+  AddTmpdir: require('../assets/images/AddTmpdir.gif'),
+  CodeFormatting: require('../assets/images/CodeFormatting.gif'),
+  Coverage: require('../assets/images/Coverage.gif'),
+  FailedTest: require('../assets/images/FailedTest.gif'),
+  RerunCoverage: require('../assets/images/RerunCoverage.gif'),
+  RerunTests: require('../assets/images/RerunTests.gif'),
+  Typecast: require('../assets/images/Typecast.gif'),
+  VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
+  Hardcoded: require('../assets/images/Hardcoded.png'),
 };
 preloader(images);
 
@@ -235,6 +246,14 @@ export const Fast = () => (
 
 export const HeartGiant = () => (
   <FontAwesomeIcon icon={['fas', 'heart']} transform="grow-40" color={tertiary} />
+)
+
+export const Coverage = () => (
+  <FontAwesomeIcon icon={['fas', 'umbrella']} transform="grow-70" />
+)
+
+export const QuestionMark = () => (
+  <FontAwesomeIcon icon={['fas', 'question']} transform="grow-40" color={darktext} />
 )
 
 export default class Presentation extends Component {
@@ -557,6 +576,42 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Black Code Formatting</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.BlackFormatting} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Tab Completion</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.TabCompletion} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Enable Flake8 Linting</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.Linting} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading fit textColor="secondary">
             The Basics
@@ -578,6 +633,18 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Open Your Project</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.OpenAndTests} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
 
           <Layout>
@@ -586,6 +653,18 @@ export default class Presentation extends Component {
               <Text fit size={1} textColor="secondary">Virtual Environment</Text>
             </Fill>
           </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Selecting a Virtual Environment</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.VirtualEnvironment} />
         </Slide>
         {/* Slide } */}
 
@@ -628,11 +707,43 @@ export default class Presentation extends Component {
 
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Run Test Suites</Text>
+              <Text fit size={1} textColor="secondary">Run Coverage</Text>
             </Fill>
           </Layout>
         </Slide>
         {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">pipenv run cover</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.Coverage} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide>
+          <Layout>
+            <Fill>
+              <Heading margin={standardMargin * 3} size={1}><Coverage /></Heading>
+            </Fill>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+            <Fill>
+              <Text fill bold textSize="2.5em" textColor="secondary"> 99% total coverage </Text>
+              <Text height={minimalHorizontalPadding}>
+                &nbsp;
+            </Text>
+              <Text fill bold textSize="2.5em" textColor="secondary"> 98% coverage of test_util.py </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
@@ -640,9 +751,22 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fit size={1} textColor="secondary">Go to Failed</Text>
-              <Text fit size={1} textColor="secondary">Test Suite and Case</Text>
+              <Text fit size={1} textColor="secondary">Test Suite</Text>
             </Fill>
           </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fill size={1} textColor="darktext">Ctrl+P</Heading>
+          <Text fill size={2} textColor="tertiary">Start Fuzzy File Finding</Text>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.FuzzyFile} />
         </Slide>
         {/* Slide } */}
 
@@ -694,13 +818,10 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
-              <Heading fit size={2} textColor="secondary">Autocompletion </Heading>
-              <Heading fit size={2} textColor="secondary">Linting and Code Formatting</Heading>
-              <Heading fit size={2} textColor="secondary">Source Code Highlighting </Heading>
-              <Heading fit size={2} textColor="secondary">Snippets</Heading>
+              <Heading margin={standardMargin * 3} size={1}><QuestionMark /></Heading>
+              <Heading fit size={1} textColor="tertiary">What's the Problem?</Heading>
             </Fill>
           </Layout>
         </Slide>
@@ -708,68 +829,44 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Enable Tab Completion</Heading>
+          <Heading fit size={1} textColor="darktext">A Case of Hardcoding</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.TabCompletion} />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading textColor="darktext">
-            Autocompletion
-            </Heading>
-
-          <Layout>
-            <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
-            </Fill>
-            <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
-            </Fill>
-          </Layout>
-          <Layout>
-            <Fill>
-              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
-              </Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Enable Black Code Formatting</Heading>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.BlackFormatting} />
+          <Image src={images.Hardcoded} />
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Enable Flake8 Linting</Heading>
+          <Heading fill size={1} textColor="darktext">Fixable via BLANK</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.Linting} />
+          <Image src={images.FixHardcode} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Friendly Flake8 Message</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.AddTmpdir} />
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Linting and Code Formatting
+            Linting
             </Heading>
           <Layout>
             <Fill>
@@ -788,6 +885,155 @@ export default class Presentation extends Component {
           </Layout>
         </Slide>
         {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading textColor="darktext">
+            Autocompletion
+            </Heading>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Final Touches</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.CodeFormatting} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading textColor="darktext">
+            Code Formatting
+            </Heading>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading margin={standardMargin * 3} size={1}><QuestionMark /></Heading>
+              <Heading fit size={1} textColor="tertiary">Are We Finished?</Heading>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Run Test Suites</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Python Test Explorer</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.FailedTest} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Rerun Tests</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.RerunTests} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Typecast Tmpdir</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.Typecast} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Check Coverage</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.RerunCoverage} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide>
+          <Layout>
+            <Fill>
+              <Heading margin={standardMargin * 3} size={1}><Coverage /></Heading>
+            </Fill>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+            <Fill>
+              <Text fill bold textSize="4.5em" textColor="secondary" > 100% total coverage </Text>
+              <Text height={minimalHorizontalPadding}>
+                &nbsp;
+            </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide { */}
+
+
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
