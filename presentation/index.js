@@ -84,9 +84,6 @@ var standardHorizontalPadding = 40;
 {/* Standard all-side margin size */ }
 var standardMargin = 40;
 
-{/* Font used for all questions in section slides */ }
-var questionFont = 'Roboto Slab';
-
 {/* FontAwesome: Define the colors for the theme */ }
 var primary = '#FFF8DC';
 var secondary = '#F4511E';
