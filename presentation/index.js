@@ -366,16 +366,22 @@ export default class Presentation extends Component {
           </Heading>
 
           <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
+
+          <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
-                Productivity
+                Developer Productivity
               </Heading>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Heading size={2} textColor="secondary" margin={standardMargin}>
-                Fun
+                Programming Fun
               </Heading>
             </Fill>
           </Layout>
@@ -392,6 +398,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
+
         </Slide>
         {/* Slide } */}
 
