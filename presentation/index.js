@@ -614,6 +614,26 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide } */}
 
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading fit textColor="secondary">
+            Development Tools
+          </Heading>
+          <Heading size={4} textColor="tertiary">
+            Used in VS Code and Neovim
+          </Heading>
+          <Layout>
+            <Fill>
+              <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
+                <ListItem margin={minimalHorizontalPadding}>Vim or Neovim in a terminal with tmux</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Configure editor through .vimrc or init.vim</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Install plugins with a plugin manager</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Add configuration options for plugins</ListItem>
+              </List>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
