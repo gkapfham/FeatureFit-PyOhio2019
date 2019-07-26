@@ -459,7 +459,7 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
-            <ListItem margin={minimalHorizontalPadding}>Showcase Key Features</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Showcase Noteworthy Features</ListItem>
             <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Editors</ListItem>
             <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
             <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
@@ -539,7 +539,7 @@ export default class Presentation extends Component {
             <Fill>
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
                 <ListItem margin={minimalHorizontalPadding}>Open Command Palette: Ctrl+Shift+P</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>IntelliSense: Built-in Language Server Protocol</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>IntelliSense: Uses Language Server Protocol</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>Save Configuration in User Settings</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>Remember to Download the Python Extension</ListItem>
               </List>
@@ -629,7 +629,7 @@ export default class Presentation extends Component {
             <Fill>
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
                 <ListItem margin={minimalHorizontalPadding}>pyenv: Download and manage Python versions</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>pipenv: App deps and virtual envs</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv: Application deps and virtualenvs</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>pytest: Run test cases and report their status</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>coverage: Track statements and branches</ListItem>
               </List>
@@ -656,18 +656,6 @@ export default class Presentation extends Component {
               </List>
             </Fill>
           </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Open your File in Vim</Heading>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          {/* <Image src={images.BLANK} /> */}
         </Slide>
         {/* Slide } */}
 
