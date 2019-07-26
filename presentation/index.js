@@ -936,12 +936,12 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Wait, this fix</Text>
+              <Text bold fit size={1} textColor="secondary">Wait, this fix</Text>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">is still incomplete!</Text>
+              <Text bold fit size={1} textColor="secondary">is still incomplete!</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -975,7 +975,7 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Both editors support the use of multiple linters in background processes
+                Both allow multiple background linters, with customization differences
               </Text>
             </Fill>
           </Layout>
@@ -984,8 +984,8 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading size={3} textColor="darktext">
-            Source Code Autocompletion
+          <Heading size={2} textColor="darktext">
+            Code Autocompletion
             </Heading>
           <Layout>
             <Fill>
