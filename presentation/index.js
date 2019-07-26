@@ -1059,7 +1059,7 @@ export default class Presentation extends Component {
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fill size={3} textColor="darktext">Python Test Explorer</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.25*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -1071,7 +1071,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Heading size={3} textColor="darktext">Convert tmpdir to a String</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.25*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -1083,7 +1083,7 @@ export default class Presentation extends Component {
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading size={3} textColor="darktext">Run the Test Suite</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.25*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -1095,7 +1095,7 @@ export default class Presentation extends Component {
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Check Test Suite Coverage</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.5*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
