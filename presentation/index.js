@@ -460,7 +460,7 @@ export default class Presentation extends Component {
           </Layout>
           <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
             <ListItem margin={minimalHorizontalPadding}>Showcase Noteworthy Features</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Editors</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Text Editors</ListItem>
             <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
             <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
           </List>
@@ -873,7 +873,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+        <Slide transitionDuration={1000} transition={['slide']}>
           <Heading fill size={3} textColor="darktext">Use Pytest's tmpdir fixture</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -885,21 +885,36 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Friendly Flake8 Message</Heading>
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Let's Fix the Test!</Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Wait, this fix is still incomplete</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['slide']}>
+          <Heading fit size={1} textColor="darktext">View and Act on Flake8 Warning</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          {/* <Image src={images.AddTmpdir} /> */}
+          <Image src={images.AddTmpdir}/>
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Linting
+            Automated Code Linting
             </Heading>
           <Layout>
             <Fill>
@@ -912,17 +927,17 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both editors support the use of multiple linters in background processes
               </Text>
             </Fill>
           </Layout>
         </Slide>
-        {/* Slide { */}
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading textColor="darktext">
-            Autocompletion
+          <Heading size={3} textColor="darktext">
+            Source Code Autocompletion
             </Heading>
           <Layout>
             <Fill>
@@ -935,12 +950,12 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both editors offer support, with trade-offs in relevance and performance
               </Text>
             </Fill>
           </Layout>
         </Slide>
-        {/* Slide { */}
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
