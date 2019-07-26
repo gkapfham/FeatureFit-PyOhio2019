@@ -72,9 +72,9 @@ const images = {
   Typecast: require('../assets/images/Typecast.gif'),
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
-  VimBasics: require('../assets/images/vim-basics.gif'),
-  StartProject: require('../assets/images/start-project.gif'),
-  InstallPlugins: require('../assets/images/install-plugins.gif'),
+  VimBasics: require('../assets/images/vim-basics-opt.gif'),
+  StartProject: require('../assets/images/start-project-opt.gif'),
+  InstallPlugins: require('../assets/images/install-plugins-opt.gif'),
 };
 preloader(images);
 
@@ -724,18 +724,6 @@ export default class Presentation extends Component {
               Discover new plugins and update them on a regular basis
             </Heading>
           </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Update All Plugins in Neovim</Heading>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.InstallPlugins} />
         </Slide>
         {/* Slide } */}
 
