@@ -225,7 +225,7 @@ export default class Presentation extends Component {
       >
 
         {/* Slide { */}
-        <Slide transition={['slide', 'spin']} bgColor="primary">
+        <Slide transition={['slide']} bgColor="primary">
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="darktext">
             Find Your Feature Fit
