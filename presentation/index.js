@@ -1042,10 +1042,14 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Run Test Suites</Text>
+              <Text bold fit size={1} textColor="secondary">Run Test Suites</Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text bold fit size={1} textColor="tertiary">Did we fix the hard-coded test?</Text>
             </Fill>
           </Layout>
         </Slide>
