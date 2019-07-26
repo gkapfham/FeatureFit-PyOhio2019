@@ -995,7 +995,7 @@ export default class Presentation extends Component {
             </Heading>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+              <Backpack size={400} mood="sad" color="#4DB6AC" />
             </Fill>
             <Fill>
               <Cat size={400} mood="blissful" color="#FF8A65" />
@@ -1087,13 +1087,13 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading size={3} textColor="darktext">Run the Test Suite</Heading>
+          <Heading fit size={1} textColor="darktext">Run Tests and Coverage</Heading>
           <Layout>
-            <Text height={.25*minimalHorizontalPadding}>
+            <Text height={.5*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.RerunTests}/>
+          <Image src={images.RunTestsVim}/>
         </Slide>
         {/* Slide } */}
 
@@ -1106,18 +1106,6 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.RerunCoverage}/>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Check Test Suite Coverage</Heading>
-          <Layout>
-            <Text height={.5*minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.RunTestsVim}/>
         </Slide>
         {/* Slide } */}
 
@@ -1173,7 +1161,7 @@ export default class Presentation extends Component {
               <Backpack size={400} mood="blissful" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="shocked" color="#FF8A65" />
+              <Cat size={400} mood="sad" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
@@ -1202,6 +1190,11 @@ export default class Presentation extends Component {
             <Fill>
               <Text bold fit size={1} textColor="tertiary">Save time by using a template for text</Text>
             </Fill>
+          </Layout>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
           </Layout>
           <Layout>
             <Fill>
