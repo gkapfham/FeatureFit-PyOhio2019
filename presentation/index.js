@@ -447,7 +447,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
-          <Heading fit size="3" textColor="secondary">
+          <Heading fit size={3} textColor="secondary">
             Key Goals
           </Heading>
           <Layout>
@@ -455,14 +455,12 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Appear transitionDuration={100}>
-            <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
-              <ListItem margin={minimalHorizontalPadding}>Showcase Key Features</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Editors</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
-              <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
-            </List>
-          </Appear>
+          <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
+            <ListItem margin={minimalHorizontalPadding}>Showcase Key Features</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Editors</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
+          </List>
         </Slide>
         {/* Slide } */}
 
@@ -575,7 +573,7 @@ export default class Presentation extends Component {
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={4} textColor="darktext">Enable Flake8 Code Linting</Heading>
           <Layout>
-            <Text height={.5*minimalHorizontalPadding}>
+            <Text height={.25*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -589,7 +587,7 @@ export default class Presentation extends Component {
             The Basics
           </Heading>
           <Heading size={4} textColor="tertiary">
-            Vim
+            Neovim
           </Heading>
           <Layout>
             <Fill>
@@ -622,7 +620,7 @@ export default class Presentation extends Component {
             Development Tools
           </Heading>
           <Heading size={4} textColor="tertiary">
-            Used in both VS Code and Neovim
+            Useful in both VS Code and Neovim
           </Heading>
           <Layout>
             <Fill>
@@ -776,7 +774,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Calculate Test Suite Coverage</Text>
+              <Text fit size={1} textColor="secondary">Calculate Test</Text>
+              <Text fit size={1} textColor="secondary">Suite Coverage</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -798,17 +797,14 @@ export default class Presentation extends Component {
         <Slide>
           <Layout>
             <Fill>
-              <Heading margin={standardMargin * 3} size={1}><Coverage /></Heading>
+              <Heading margin={standardMargin*4} size={1}><Coverage/></Heading>
             </Fill>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
             <Fill>
-              <Text fill bold textSize="2.5em" textColor="secondary"> 99% total coverage </Text>
-              <Text height={minimalHorizontalPadding}>
+              <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">99% total coverage</Text>
+              <Text height={5*minimalHorizontalPadding}>
                 &nbsp;
-            </Text>
-              <Text fill bold textSize="2.5em" textColor="secondary"> 98% coverage of test_util.py </Text>
+              </Text>
+              <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">98% coverage of test_util.py</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -818,7 +814,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Go to Failed</Text>
+              <Text fit size={1} textColor="secondary">Go to Failing</Text>
               <Text fit size={1} textColor="secondary">Test Suite</Text>
             </Fill>
           </Layout>
@@ -835,18 +831,6 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.FuzzyFile} />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
-          <Layout>
-            <Fill>
-              <Text fit size={1} textColor="secondary">Find Definition of </Text>
-              <Text fit size={1} textColor="secondary">Failed Test</Text>
-            </Fill>
-          </Layout>
         </Slide>
         {/* Slide } */}
 
