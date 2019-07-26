@@ -219,7 +219,7 @@ export default class Presentation extends Component {
         contentHeight={700}
         contentWidth={1024}
         transition={['slide']}
-        transitionDuration={500}
+        transitionDuration={750}
         theme={theme}
         controls={false}
         progress={'none'}
@@ -664,8 +664,13 @@ export default class Presentation extends Component {
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Editor Configuration and Plugin Installation
+            Configuration and Plugins
           </Heading>
+          <Layout>
+            <Text height={.25*minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
           <Layout>
             <Fill>
               <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
@@ -961,7 +966,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+        <Slide transitionDuration={1000} transition={['slide']} bgColor="primary">
           <Heading size={3} textColor="darktext">
             Automated Code Linting
             </Heading>
@@ -984,7 +989,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+        <Slide transitionDuration={1000} transition={['slide']} bgColor="primary">
           <Heading size={2} textColor="darktext">
             Code Autocompletion
             </Heading>
