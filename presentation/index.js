@@ -971,7 +971,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading textColor="darktext">
+          <Heading size={2} textColor="darktext">
             Code Formatting
             </Heading>
           <Layout>
@@ -979,25 +979,14 @@ export default class Presentation extends Component {
               <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
+              <Cat size={400} mood="shocked" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both tools can leverage Black, but VS Code is easier to configure
               </Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-          <Layout>
-            <Fill>
-              <Heading margin={standardMargin * 3} size={2}><QuestionMark /></Heading>
-              <Heading fit size={2} textColor="tertiary">Are We Finished?</Heading>
             </Fill>
           </Layout>
         </Slide>
@@ -1028,36 +1017,37 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-          <Layout>
-            <Fill>
-              <Heading margin={standardMargin * 3} size={1}><Keyboard /></Heading>
-              <Heading fit size={1} textColor="tertiary">Typecast Tmpdir</Heading>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Rerun Tests</Heading>
+          <Heading size={3} textColor="darktext">Convert tmpdir to a String</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          {/* <Image src={images.RerunTests} /> */}
+          <Image src={images.FailedTest} />
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Check Coverage</Heading>
+          <Heading size={3} textColor="darktext">Run the Test Suite</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          {/* <Image src={images.RerunCoverage} /> */}
+          <Image src={images.RerunTests}/>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Check Test Suite Coverage</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.RerunCoverage}/>
         </Slide>
         {/* Slide } */}
 
@@ -1071,7 +1061,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
             <Fill>
-              <Text fill bold textSize="4.5em" textColor="secondary" > 100% total coverage </Text>
+              <Text fill bold textSize="4.5em" textColor="secondary">100% total coverage</Text>
               <Text height={minimalHorizontalPadding}>
                 &nbsp;
             </Text>
