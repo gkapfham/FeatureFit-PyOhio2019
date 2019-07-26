@@ -528,6 +528,26 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading fill size={1} textColor="secondary">Install Useful Text Editor Plugins</Heading>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Heading size={4} textColor="tertiary">
+              Discover new plugins and update them on a regular basis
+            </Heading>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading fit textColor="secondary">
             The Basics
@@ -640,6 +660,30 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading size={3} textColor="darktext">
+            Editor Configuration and Plugin Installation
+          </Heading>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="shocked" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Both support projects and offer many plugins, but VS Code is
+                easier to configure
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading fit textColor="secondary">
             GatorGrader
           </Heading>
@@ -695,48 +739,27 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-          <Layout>
-            <Fill>
-              <Heading fill size={1} textColor="secondary">Install Useful Text Editor Plugins</Heading>
-            </Fill>
-          </Layout>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Layout>
-            <Heading size={4} textColor="tertiary">
-              Discover new plugins and update them on a regular basis
-            </Heading>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Virtual Environments and Installing Plugins
+            Virtual Environments and Package Installation
           </Heading>
           <Layout>
             <Fill>
               <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="shocked" color="#FF8A65" />
+              <Cat size={400} mood="blissful" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Both support projects and offer many plugins, but VS Code is
-                easier to configure
+                Both effectively use pipenv to manage virtualenvs and app dependencies
               </Text>
             </Fill>
           </Layout>
         </Slide>
-        {/* Slide { */}
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
