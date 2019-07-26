@@ -1136,21 +1136,21 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading size={3} textColor="darktext">
-            Automated Testing and Debugging
+          <Heading size={2} textColor="darktext">
+            Automated Testing
             </Heading>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+              <Backpack size={400} mood="excited" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
+              <Cat size={400} mood="excited" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both support testing well, but offer a very different user experience
               </Text>
             </Fill>
           </Layout>
@@ -1164,16 +1164,16 @@ export default class Presentation extends Component {
             </Heading>
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+              <Backpack size={400} mood="blissful" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
+              <Cat size={400} mood="shocked" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both support fast syntax highlighting, but Vim requires an extra package
               </Text>
             </Fill>
           </Layout>
@@ -1181,22 +1181,52 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading textColor="darktext">
-            Snippets
-            </Heading>
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+              <Text bold fit size={1} textColor="secondary">Text Snippets</Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Text height={.5*minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text bold fit size={1} textColor="tertiary">Save time by using a template for text</Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text bold fit size={1} textColor="tertiary">Autocompletion trigger inserts text</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading size={2} textColor="darktext">
+            Snippet Expansion
+          </Heading>
+          <Layout>
+            <Text height={.5*minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="shocked" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
+              <Cat size={400} mood="lovestruck" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both editors support snippets, but Vim works well in more scenarios
               </Text>
             </Fill>
           </Layout>
