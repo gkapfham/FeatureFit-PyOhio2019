@@ -74,6 +74,7 @@ const images = {
   InstallDeps: require('../assets/images/install-deps-opt.gif'),
   VimBasics: require('../assets/images/vim-basics-opt.gif'),
   StartProject: require('../assets/images/start-project-opt.gif'),
+  RunTestsVim: require('../assets/images/run-tests-opt.gif'),
 };
 preloader(images);
 
@@ -1100,6 +1101,18 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.RerunCoverage}/>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Check Test Suite Coverage</Heading>
+          <Layout>
+            <Text height={.5*minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.RunTestsVim}/>
         </Slide>
         {/* Slide } */}
 
