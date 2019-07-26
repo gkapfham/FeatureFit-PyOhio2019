@@ -71,7 +71,6 @@ const images = {
   Typecast: require('../assets/images/Typecast.gif'),
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
-  InstallDeps: require('../assets/images/install-deps-opt.gif'),
   VimBasics: require('../assets/images/vim-basics-opt.gif'),
   StartProject: require('../assets/images/start-project-opt.gif'),
   RunTestsVim: require('../assets/images/run-tests-opt.gif'),
