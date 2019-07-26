@@ -1007,9 +1007,9 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Source Code Formatting</Heading>
+          <Heading fit size={2} textColor="darktext">Source Code Formatting</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.5*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
@@ -1033,7 +1033,7 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Both tools can leverage Black, but VS Code is easier to configure
+                Both editors can leverage Black, but VS Code is much easier to configure
               </Text>
             </Fill>
           </Layout>
