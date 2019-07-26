@@ -562,8 +562,8 @@ export default class Presentation extends Component {
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
                 <ListItem margin={minimalHorizontalPadding}>Open Command Palette: Ctrl+Shift+P</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>IntelliSense: Uses Language Server Protocol</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Save Configuration in the User Settings</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Remember to Download the Python Extension</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Save configuration in the User Settings</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Remember to download the Python Extension</ListItem>
               </List>
             </Fill>
           </Layout>
