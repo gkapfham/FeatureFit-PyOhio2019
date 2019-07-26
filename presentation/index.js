@@ -459,10 +459,10 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
-            <ListItem margin={minimalHorizontalPadding}>Showcase Noteworthy Features</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Compare and Contrast Text Editors</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Highlight Less Available Information</ListItem>
-            <ListItem margin={minimalHorizontalPadding}>Share the Thrill of Customization</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Showcase noteworthy features</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Compare and contrast text editors</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Highlight less available information</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Share the thrill of customization</ListItem>
           </List>
         </Slide>
         {/* Slide } */}
@@ -914,7 +914,7 @@ export default class Presentation extends Component {
           </Layout>
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Use Pytest's tmpdir test fixture</Text>
+              <Text bold fit size={1} textColor="tertiary">Use Pytest's tmpdir test fixture</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -924,7 +924,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={5000} transition={['slide']}>
           <Heading fill size={3} textColor="darktext">Use Pytest's tmpdir fixture</Heading>
           <Layout>
-            <Text height={minimalHorizontalPadding}>
+            <Text height={.25*minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
