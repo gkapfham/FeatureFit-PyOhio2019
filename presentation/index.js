@@ -799,14 +799,14 @@ export default class Presentation extends Component {
         <Slide>
           <Layout>
             <Fill>
-              <Heading margin={standardMargin*4} size={1}><Coverage/></Heading>
+              <Heading margin={standardMargin*6} size={1}><Coverage/></Heading>
             </Fill>
             <Fill>
               <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">99% total coverage</Text>
               <Text height={5*minimalHorizontalPadding}>
                 &nbsp;
               </Text>
-              <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">98% coverage of test_util.py</Text>
+              <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">98% coverage test_util.py</Text>
             </Fill>
           </Layout>
         </Slide>
