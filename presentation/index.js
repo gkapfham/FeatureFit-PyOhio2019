@@ -74,7 +74,6 @@ const images = {
   Hardcoded: require('../assets/images/Hardcoded.png'),
   VimBasics: require('../assets/images/vim-basics-opt.gif'),
   StartProject: require('../assets/images/start-project-opt.gif'),
-  InstallPlugins: require('../assets/images/install-plugins-opt.gif'),
 };
 preloader(images);
 
