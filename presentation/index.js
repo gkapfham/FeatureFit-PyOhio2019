@@ -1249,6 +1249,47 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide } */}
 
+        {/* Slide { */}
+        <Slide align="center center" bgColor="primary">
+          <Heading fit bold size={6} textColor="secondary">
+            Key Points
+          </Heading>
+          <Layout>
+            <Text height={standardHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Text fill bold textSize="1.5em" textColor="darktext">
+            Two awesome text editors and
+          </Text>
+          <Text fill bold textSize="1.5em" textColor="darktext">
+            a great learning experience!
+          </Text>
+          <Layout>
+            <Text height={standardHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            Remember ... 100 likes for a blog post!
+          </Text>
+          <Layout>
+            <Fill>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                @GregKapfhammer
+              </Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold textSize="2em" textColor="tertiary">
+                @MaddyKapfhammer
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
       </Deck>
     );
   }
