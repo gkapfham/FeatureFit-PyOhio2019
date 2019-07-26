@@ -71,7 +71,7 @@ const images = {
   Typecast: require('../assets/images/Typecast.gif'),
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
-  InstallDeps: require('../assets/images/install-deps.gif'),
+  InstallDeps: require('../assets/images/install-deps-opt.gif'),
   VimBasics: require('../assets/images/vim-basics-opt.gif'),
   StartProject: require('../assets/images/start-project-opt.gif'),
 };
@@ -378,21 +378,21 @@ export default class Presentation extends Component {
 
           <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary" margin={.5*standardMargin}>
                 Developer Productivity
               </Heading>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary" margin={.5*standardMargin}>
                 Programming Fun
               </Heading>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Heading size={2} textColor="secondary" margin={standardMargin}>
+              <Heading size={2} textColor="secondary" margin={.5*standardMargin}>
                 Effective Code
               </Heading>
             </Fill>
@@ -513,7 +513,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Heading fill size={1} textColor="secondary">Learn key editor features</Heading>
+              <Heading fill size={1} textColor="secondary">Learn Key Editor Features</Heading>
             </Fill>
           </Layout>
           <Layout>
@@ -709,8 +709,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Install the</Text>
-              <Text fit size={1} textColor="secondary">Application Dependencies</Text>
+              <Text bold fit size={1} textColor="secondary">Install the</Text>
+              <Text bold fit size={1} textColor="tertiary">Application Dependencies</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -724,7 +724,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.VirtualEnvironment} />
+          <Image src={images.InstallDeps} />
         </Slide>
         {/* Slide } */}
 
@@ -732,8 +732,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Start Your</Text>
-              <Text fit size={1} textColor="secondary">Virtual Environment</Text>
+              <Text bold fit size={1} textColor="secondary">Start Your</Text>
+              <Text bold fit size={1} textColor="tertiary">Virtual Environment</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -790,8 +790,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Let's Start</Text>
-              <Text fit size={1} textColor="secondary">Programming in Python!</Text>
+              <Text bold fit size={1} textColor="secondary">Let's Start</Text>
+              <Text bold fit size={1} textColor="tertiary">Programming in Python!</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -801,8 +801,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Calculate Test</Text>
-              <Text fit size={1} textColor="secondary">Suite Coverage</Text>
+              <Text bold fit size={1} textColor="secondary">Calculate Test</Text>
+              <Text bold fit size={1} textColor="secondary">Suite Coverage</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -872,7 +872,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">A Case of Hardcoding</Heading>
+          <Heading fit size={1} textColor="darktext">Hardcoded Test Variable</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -886,7 +886,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Let's Fix the Test!</Text>
+              <Text bold fit size={1} textColor="secondary">Let's Fix the Test!</Text>
             </Fill>
           </Layout>
           <Layout>
