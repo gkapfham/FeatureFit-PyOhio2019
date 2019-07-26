@@ -803,6 +803,12 @@ export default class Presentation extends Component {
             <Fill>
               <Text bold fit size={1} textColor="secondary">Calculate Test</Text>
               <Text bold fit size={1} textColor="secondary">Suite Coverage</Text>
+              <Layout>
+                <Text height={minimalHorizontalPadding}>
+                  &nbsp;
+                </Text>
+              </Layout>
+              <Text bold fit size={4} textColor="tertiary">Work on an existing code base</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -832,6 +838,23 @@ export default class Presentation extends Component {
                 &nbsp;
               </Text>
               <Text fill bold textSize="2.5em" textColor="secondary" textAlign="right">98% coverage test_util.py</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Text bold fit size={1} textColor="secondary">Wait, I thought</Text>
+              <Text bold fit size={1} textColor="secondary">coverage was 100%?</Text>
+              <Layout>
+                <Text height={minimalHorizontalPadding}>
+                  &nbsp;
+                </Text>
+              </Layout>
+              <Text bold fit size={4} textColor="tertiary">My dad: "It is 100%! Wait, what?"</Text>
             </Fill>
           </Layout>
         </Slide>
