@@ -861,12 +861,12 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Fix the Test Case</Text>
+              <Text fit size={1} textColor="secondary">Let's Fix the Test!</Text>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Fix the Defective Test Case</Text>
+              <Text fit size={1} textColor="secondary">Use Pytest's tmpdir test fixture</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -874,7 +874,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fill size={3} textColor="darktext">Fixable via BLANK</Heading>
+          <Heading fill size={3} textColor="darktext">Use Pytest's tmpdir fixture</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
