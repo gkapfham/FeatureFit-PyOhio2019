@@ -824,45 +824,21 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide } */}
 
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} bgColor="primary">
-          <Heading size={3} textColor="darktext">
-            Automated Testing and Debugging
-            </Heading>
-          <Layout>
-            <Fill>
-              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
-            </Fill>
-            <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
-            </Fill>
-          </Layout>
-          <Layout>
-            <Fill>
-              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
-              </Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide { */}
-
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
-          <Layout>
-            <Fill>
-              <Text fit size={1} textColor="secondary">Fix Your Bug</Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
               <Heading margin={standardMargin * 3} size={1}><QuestionMark /></Heading>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Fill>
               <Heading fit size={1} textColor="tertiary">What's the Problem?</Heading>
             </Fill>
           </Layout>
@@ -878,6 +854,21 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.Hardcoded} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Fix the Test Case</Text>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Fix the Defective Test Case</Text>
+            </Fill>
+          </Layout>
         </Slide>
         {/* Slide } */}
 
@@ -1074,7 +1065,28 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide { */}
 
-
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} bgColor="primary">
+          <Heading size={3} textColor="darktext">
+            Automated Testing and Debugging
+            </Heading>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
+                Short point about both here and then some other things
+              </Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
