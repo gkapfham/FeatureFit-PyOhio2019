@@ -690,6 +690,17 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
+              <Text fit size={1} textColor="secondary">Install the</Text>
+              <Text fit size={1} textColor="secondary">Application Dependencies</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
               <Text fit size={1} textColor="secondary">Start Your</Text>
               <Text fit size={1} textColor="secondary">Virtual Environment</Text>
             </Fill>
