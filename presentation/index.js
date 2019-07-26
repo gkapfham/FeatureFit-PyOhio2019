@@ -709,7 +709,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Heading fill size={1} textColor="secondary">Install Text Editor Plugins</Heading>
+              <Heading fill size={1} textColor="secondary">Install Useful Text Editor Plugins</Heading>
             </Fill>
           </Layout>
           <Layout>
@@ -740,20 +740,21 @@ export default class Presentation extends Component {
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Virtual Environments and Installing Packages
-            </Heading>
+            Virtual Environments and Installing Plugins
+          </Heading>
           <Layout>
             <Fill>
               <Backpack size={400} mood="lovestruck" color="#4DB6AC" />
             </Fill>
             <Fill>
-              <Cat size={400} mood="blissful" color="#FF8A65" />
+              <Cat size={400} mood="shocked" color="#FF8A65" />
             </Fill>
           </Layout>
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Short point about both here and then some other things
+                Both support projects and offer many plugins, but VS Code is
+                easier to configure
               </Text>
             </Fill>
           </Layout>
