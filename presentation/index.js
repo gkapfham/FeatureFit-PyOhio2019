@@ -873,7 +873,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={1000} transition={['slide']}>
+        <Slide transitionDuration={5000} transition={['slide']}>
           <Heading fill size={3} textColor="darktext">Use Pytest's tmpdir fixture</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -888,19 +888,19 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Let's Fix the Test!</Text>
+              <Text fit size={1} textColor="secondary">Wait, this fix</Text>
             </Fill>
           </Layout>
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Wait, this fix is still incomplete</Text>
+              <Text fit size={1} textColor="secondary">is still incomplete!</Text>
             </Fill>
           </Layout>
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transition={['slide']}>
+        <Slide transitionDuration={5000} transition={['slide']}>
           <Heading fit size={1} textColor="darktext">View and Act on Flake8 Warning</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -959,13 +959,13 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Final Touches</Heading>
+          <Heading fit size={1} textColor="darktext">Source Code Formatting</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          {/* <Image src={images.CodeFormatting} /> */}
+          <Image src={images.CodeFormatting} />
         </Slide>
         {/* Slide } */}
 
