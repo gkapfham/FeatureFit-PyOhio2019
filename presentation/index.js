@@ -628,10 +628,10 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
-                <ListItem margin={minimalHorizontalPadding}>pyenv: Download and manage versions of Python</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>pipenv: Dependencies and virtual environments</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pyenv: Download and manage Python versions</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>pipenv: App deps and virtual envs</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>pytest: Run test cases and report their status</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>coverage: Track statement and branch execution</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>coverage: Track statements and branches</ListItem>
               </List>
             </Fill>
           </Layout>
