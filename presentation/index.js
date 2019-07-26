@@ -74,6 +74,7 @@ const images = {
   Hardcoded: require('../assets/images/Hardcoded.png'),
   VimBasics: require('../assets/images/vim-basics.gif'),
   StartProject: require('../assets/images/start-project.gif'),
+  InstallPlugins: require('../assets/images/install-plugins.gif'),
 };
 preloader(images);
 
@@ -681,7 +682,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Selecting a Virtual Environment</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -693,7 +694,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Start Project in a Virtual Environment</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -706,19 +707,40 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Install Packages</Text>
+              <Heading fill size={1} textColor="secondary">Install Text Editor Plugins</Heading>
             </Fill>
           </Layout>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Heading size={4} textColor="tertiary">
+              Discover new plugins and update them on a regular basis
+            </Heading>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Update All Plugins in Neovim</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.InstallPlugins} />
         </Slide>
         {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
           <Heading size={3} textColor="darktext">
-            Virutal Environments and Installing Packages
+            Virtual Environments and Installing Packages
             </Heading>
           <Layout>
             <Fill>
@@ -750,7 +772,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">pipenv run cover</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -794,7 +816,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fill size={1} textColor="darktext">Ctrl+P</Heading>
           <Text fill size={2} textColor="tertiary">Start Fuzzy File Finding</Text>
           <Layout>
@@ -864,7 +886,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">A Case of Hardcoding</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -876,7 +898,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fill size={1} textColor="darktext">Fixable via BLANK</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -888,7 +910,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Friendly Flake8 Message</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -946,7 +968,7 @@ export default class Presentation extends Component {
         {/* Slide { */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Final Touches</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -1003,7 +1025,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Python Test Explorer</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -1015,7 +1037,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Rerun Tests</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -1027,7 +1049,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Typecast Tmpdir</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
@@ -1039,7 +1061,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
           <Heading fit size={1} textColor="darktext">Check Coverage</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
