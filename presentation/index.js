@@ -228,7 +228,7 @@ export default class Presentation extends Component {
         <Slide transition={['slide', 'spin']} bgColor="primary">
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="darktext">
-            Finding Your Feature Fit
+            Find Your Feature Fit
           </Heading>
 
           <Heading size={1} fit lineHeight={1.2} bold textColor="secondary">
