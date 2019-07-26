@@ -183,11 +183,15 @@ export const HeartGiant = () => (
 )
 
 export const Coverage = () => (
-  <FontAwesomeIcon icon={['fas', 'umbrella']} transform="grow-70" />
+  <FontAwesomeIcon icon={['fas', 'umbrella']} transform="grow-70" color={tertiary}/>
 )
 
 export const QuestionMark = () => (
   <FontAwesomeIcon icon={['fas', 'question']} transform="grow-40" color={darktext} />
+)
+
+export const Keyboard = () => (
+  <FontAwesomeIcon icon={['fas', 'keyboard']} transform="grow-40" color={darktext} />
 )
 
 export default class Presentation extends Component {
@@ -658,13 +662,13 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Open Your Project in VS Code</Heading>
+          <Heading fit size={1} textColor="darktext">Open your File in Vim</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.OpenAndTests} />
+          {/* <Image src={images.BLANK} /> */}
         </Slide>
         {/* Slide } */}
 
@@ -814,8 +818,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Go to Failing</Text>
-              <Text fit size={1} textColor="secondary">Test Suite</Text>
+              <Text fit size={1} textColor="secondary">Go to test_util.py</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -823,8 +826,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fill size={1} textColor="darktext">Ctrl+P</Heading>
-          <Text fill size={2} textColor="tertiary">Start Fuzzy File Finding</Text>
+          <Heading fit size={2} textColor="darktext">Start Fuzzy File Finding</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -833,6 +835,8 @@ export default class Presentation extends Component {
           <Image src={images.FuzzyFile} />
         </Slide>
         {/* Slide } */}
+
+
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
@@ -893,7 +897,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fill size={1} textColor="darktext">Fixable via BLANK</Heading>
+          <Heading fill size={3} textColor="darktext">Fixable via BLANK</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -911,7 +915,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.AddTmpdir} />
+          {/* <Image src={images.AddTmpdir} /> */}
         </Slide>
         {/* Slide } */}
 
@@ -969,7 +973,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.CodeFormatting} />
+          {/* <Image src={images.CodeFormatting} /> */}
         </Slide>
         {/* Slide } */}
 
@@ -1000,8 +1004,8 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Heading margin={standardMargin * 3} size={1}><QuestionMark /></Heading>
-              <Heading fit size={1} textColor="tertiary">Are We Finished?</Heading>
+              <Heading margin={standardMargin * 3} size={2}><QuestionMark /></Heading>
+              <Heading fit size={2} textColor="tertiary">Are We Finished?</Heading>
             </Fill>
           </Layout>
         </Slide>
@@ -1020,13 +1024,24 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Python Test Explorer</Heading>
+          <Heading fill size={3} textColor="darktext">Python Test Explorer</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
           </Layout>
           <Image src={images.FailedTest} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading margin={standardMargin * 3} size={1}><Keyboard /></Heading>
+              <Heading fit size={1} textColor="tertiary">Typecast Tmpdir</Heading>
+            </Fill>
+          </Layout>
         </Slide>
         {/* Slide } */}
 
@@ -1038,19 +1053,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.RerunTests} />
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
-        <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">Typecast Tmpdir</Heading>
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-          <Image src={images.Typecast} />
+          {/* <Image src={images.RerunTests} /> */}
         </Slide>
         {/* Slide } */}
 
@@ -1062,7 +1065,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.RerunCoverage} />
+          {/* <Image src={images.RerunCoverage} /> */}
         </Slide>
         {/* Slide } */}
 
@@ -1070,7 +1073,7 @@ export default class Presentation extends Component {
         <Slide>
           <Layout>
             <Fill>
-              <Heading margin={standardMargin * 3} size={1}><Coverage /></Heading>
+              <Heading margin={standardMargin * 3} size={2}><Coverage /></Heading>
             </Fill>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -1200,8 +1203,6 @@ export default class Presentation extends Component {
           Greg turned Maddy Slide Here
         </Heading>
         {/* Slide } */}
-
-
 
       </Deck>
     );
