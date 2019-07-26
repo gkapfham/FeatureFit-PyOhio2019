@@ -813,18 +813,8 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-          <Layout>
-            <Fill>
-              <Text fit size={1} textColor="secondary">Go to test_util.py</Text>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
-
-        {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={2} textColor="darktext">Start Fuzzy File Finding</Heading>
+          <Heading fit size={2} textColor="darktext">Fuzzy File Finding for the Test</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -833,8 +823,6 @@ export default class Presentation extends Component {
           <Image src={images.FuzzyFile} />
         </Slide>
         {/* Slide } */}
-
-
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} bgColor="primary">
