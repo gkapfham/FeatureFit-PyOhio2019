@@ -1,0 +1,495 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: /bin/zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/gkapfham
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 84
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 23
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 90
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: solid
+    title: null
+    # style: []
+    # title: Terminalizer
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Hack Nerd Font Regular, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 22
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "#1c1c1c"
+    foreground: "#707880"
+    cursor: "#707880"
+    black: "#1c1c1c"
+    red: "#D78700"
+    green: "#5F8700"
+    yellow: "#AFAF5F"
+    blue: "#87AFD7"
+    magenta: "#875F87"
+    cyan: "#D75F5F"
+    white: "#A3ABB3"
+    brightBlack: "#1c1c1c"
+    brightRed: "#D78700"
+    brightGreen: "#5F8700"
+    brightYellow: "#AFAF5F"
+    brightBlue: "#87AFD7"
+    brightMagenta: "#875F87"
+    brightCyan: "#D75F5F"
+    brightWhite: "#A3ABB3"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1113
+    content: "                                                                                 \r       \r"
+  - delay: 54
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[01;33mgkapfham in \e[01;32m~ \e[00m\e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 735
+    content: "\e[32mt\e[39m"
+  - delay: 7
+    content: "\b\e[32mt\e[39m\e[38;5;240merminalizer record start-project\e[39m\e[32D"
+  - delay: 293
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[31D"
+  - delay: 6
+    content: "\e[38;5;240mux kill-session\e[39m\e[15D"
+  - delay: 117
+    content: "\b\b\e[0m\e[32mt\e[0m\e[32mm\e[32mm\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[14D"
+  - delay: 161
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 17
+    content: "\e[?1049h\e[?1000h\e[22A\e[G\e[K\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;m\e[m\e[;m\e[m\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m96/96\e[m\e[1B\r\e[2C\e[22A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience481Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience441Spring2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience302Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience280Fall2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience280Fall2015\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience203Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience112Spring2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience112Fall2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Spring2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Spring2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2015\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience103Spring2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience101Fall2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience100Fall2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mChair\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mBibliography\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mAVMFramework-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mAvatar-Creator\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[1B\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m96/96\e[m\e[1B\r\e[2C"
+  - delay: 20
+    content: "\r\e[2C"
+  - delay: 254
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mG\e[m\e[;m\e[m\r\e[3C\e[22A\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;menerationPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;menerationQueries-Paper\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Presentation\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;meneration-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mWeb-\e[m\e[;38;5;64mG\e[m\e[;mregory-Kapfhammer\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGrouper-Code\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234matorGrader-Code\e[m\e[1B\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m9/96\e[m\e[1B\r\e[3C"
+  - delay: 83
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGa\e[m\e[;m\e[m\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m9/96\e[m\e[9A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mWeb-\e[m\e[;38;5;64mG\e[m\e[;mregory-K\e[m\e[;38;5;64ma\e[m\e[;mpfhammer\e[m\e[;m      \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtionPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtionQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;moth\e[m\e[;38;5;64ma\e[m\e[;mm2018-Presentation\e[m\e[;m   \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtion-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234mtorGrader-Code\e[m\e[2B\r\e[4C"
+  - delay: 114
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGat\e[m\e[;m\e[m\r\e[5C\e[10A\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Present\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mion\e[m\e[;m   \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mion-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234morGrader-Code\e[m\e[1B\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m8/96\e[m\e[1B\r\e[5C"
+  - delay: 96
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGato\e[m\e[;m\e[m\r\e[6C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m8/96\e[m\e[8A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Present\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mo\e[m\e[;33;48;5;234mrGrader-Code\e[m\e[2B\r\e[6C"
+  - delay: 114
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGator\e[m\e[;m\e[m\r\e[7C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m7/96\e[m\e[8A\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionPositi\e[m\e[;38;5;64mo\e[m\e[;mn-Pape\e[m\e[;38;5;64mr\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn-Pape\e[m\e[;38;5;64mr\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnQue\e[m\e[;38;5;64mr\e[m\e[;mies-Paper\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mo\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mr\e[m\e[;33;48;5;234mGrader-Code\e[m\e[2B\r\e[7C"
+  - delay: 346
+    content: "\e[?1049l\e[?1000l"
+  - delay: 406
+    content: "\e[?1049h\e[?1h\e=\e[H\e[J\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;23r\e[2;1H\e[?1006h\e[?1002h\e[?25l\e[32m\e[1;3H0 kallistos zsh─────────────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 20 PM \e[m\x0F\e[2;1H\e[34h\e[?25h\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;23r\e[2;1H\e[?1006h\e[?1002h\e[?25l\e[32m\e[1;3H0 kallistos zsh─────────────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 20 PM \e[m\x0F\e[2;1H\e[34h\e[?25h"
+  - delay: 665
+    content: "                                                                                 \e[2;1H       \r"
+  - delay: 106
+    content: "\e[2;22r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[2;58H\e[?2004h"
+  - delay: 227
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 21 PM \e[m\x0F\e[2;58H\e[34h\e[?25h"
+  - delay: 315
+    content: "\e[?25l\e[33m\e[1m\e[Hgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 21 PM \e[m\x0F\e[1;58H\e[34h\e[?25h"
+  - delay: 16
+    content: "\e[1;22r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[1;23r\e[1;58H"
+  - delay: 30
+    content: "\e[1;22r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[1;58H"
+  - delay: 385
+    content: "\e[31m\e[1mp\e[m\x0F\b\e[31m\e[1mp\e[m\x0F\e[38;5;240mipenv run test\e[14D\e[m\x0F"
+  - delay: 254
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 22 PM \e[m\x0F\e[1;59H\e[34h\e[?25h"
+  - delay: 31
+    content: "\b\e[31m\e[1mpi\e[m\x0F"
+  - delay: 145
+    content: "\b\b\e[32mpip\e[m\x0F"
+  - delay: 455
+    content: "\e[3D\e[31m\e[1mpipe\e[m\x0F"
+  - delay: 125
+    content: "\b\e[31m\e[1men\e[m\x0F"
+  - delay: 133
+    content: "\e[5D\e[32mpipenv\e[m\x0F"
+  - delay: 75
+    content: ' '
+  - delay: 38
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 23 PM \e[m\x0F\e[1;65H\e[34h\e[?25h"
+  - delay: 498
+    content: "s       \e[7D"
+  - delay: 5
+    content: "\e[38;5;240mhell\e[4D\e[m\x0F"
+  - delay: 111
+    content: h
+  - delay: 386
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 24 PM \e[m\x0F\e[1;67H\e[34h\e[?25h"
+  - delay: 210
+    content: ell
+  - delay: 294
+    content: "\r\n\e[?2004l"
+  - delay: 496
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 25 PM \e[m\x0F\e[2;1H\e[34h\e[?25h"
+  - delay: 66
+    content: "Launching subshell in virtual environment…\r\n"
+  - delay: 58
+    content: " . /home/gkapfham/.local/share/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyenv/shims/python/bin/activate\r\n"
+  - delay: 259
+    content: "                                                                                 \e[5;1H       \r"
+  - delay: 66
+    content: "\e[1;22r\e[6;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[5;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[5;58H\e[?2004h \b . /home/gkapfham/.local/sh\e[6;1H\e[Ka\rare/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkap"
+  - delay: 5
+    content: "fham/.pyenv/shims/python/bin/activate\e[7;1H\e[K"
+  - delay: 17
+    content: "\e[5;58H \e[32m.\e[39m \e[94m/home/gkapfham/.local/share/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyenv/shims/python/bin/activate\e[39m \r\r\n\e[?2004l"
+  - delay: 32
+    content: "                                                                                 \e[8;1H       \r"
+  - delay: 54
+    content: "\e[1;22r\e[9;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[8;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader [python] \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[8;67H\e[?2004h"
+  - delay: 404
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 26 PM \e[m\x0F\e[8;67H\e[34h\e[?25h"
+  - delay: 239
+    content: "\e[32mn\e[m\x0F"
+  - delay: 7
+    content: "\b\e[32mn\e[38;5;240mvim\e[3D\e[m\x0F"
+  - delay: 97
+    content: "\b\e[31m\e[1mnv\e[m\x0F"
+  - delay: 117
+    content: "\b\b\e[31m\e[1mnvi\e[m\x0F"
+  - delay: 55
+    content: "\e[3D\e[32mnvim\e[m\x0F"
+  - delay: 241
+    content: "\r\n\e[?2004l"
+  - delay: 31
+    content: "\e[?25l\e[2 q\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[34h\e[?25h\e[?2004h"
+  - delay: 213
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 27 PM \e[m\x0F\e[1;1H\e[34h\e[?25h\e[2 q"
+  - delay: 19
+    content: "\e[1;22r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[38;5;64m\e[48;5;235m  * \e[38;5;240m                                                                            \e[38;5;64m 1 \e[2;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;64m\e[1m1   \e[m\x0F\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;235m\e[48;5;110m\e[1m<✔  \e[m\x0F\e[38;5;250m\e[48;5;235m  שׂ fix/use-tox-local-tests   *  Tags   0   0 \e[H\e[38;5;64m \e[21;55H\e[38;5;250m  utf-8  no ft  \e[38;5;235m\e[48;5;110m\e[1m 100%    0:1  \e[1;2H\e[m\x0F\e[38;5;64m\e[48;5;235m * \e[38;5;240m                                                                            \e[38;5;64m 1 \e[2;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;64m\e[1m1   \r\n\e[m\x0F\e[38;5;237m~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n\e[38;5;235m\e[48;5;110m\e[1m<✔  \e[m\x0F\e[38;5;250m\e[48;5;235m  שׂ fix/use-tox-local-tests   *  Tags   0   0   utf-8  no ft  \e[38;5;235m\e[48;5;110m\e[1m 100%    0:1  \e[m\x0F\e[22;1H\e[K\e[1;23r\e[2;7H"
+  - delay: 499
+    content: "\e[1;22r\e[22;1H\e[K\e[38;5;250m:FZFMine\e[1;23r\e[22;1H\e[m\x0F"
+  - delay: 118
+    content: "\e[H\e[38;5;240m\e[48;5;235m     \e[2;3H\e[49m\e[38;5;250m\e[7m \e[m\x0F\e[38;5;250m   \r\n\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[4;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[5;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[6;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[7;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[8;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[9;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[10;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[11;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[12;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[13;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[14;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[15;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[16;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[17;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[18;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[19;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[20;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[21;1H\e[38;5;235m\e[48;5;110m\e[1m  FIND  \e[m\x0F\e[38;5;110m\e[48;5;235m                                                                            \e[2;3H\e[?25l\e[m\x0F"
+  - delay: 20
+    content: "\e[20;3H"
+  - delay: 24
+    content: "\e[2;3H\e[38;5;250m \e[19;3H\e[38;5;109m \e[38;5;250m \e[38;5;110m   \e[5D\e[38;5;109m|\e[38;5;250m \e[38;5;110m0/0\e[20;3H  \e[38;5;250m\e[7m \e[3D\e[m\x0F\e[38;5;110m>\b\e[m\x0F"
+  - delay: 22
+    content: "\e[2;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/markdown.py\e[3;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/util.py\e[4;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/display.py\e[5;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/files.py\e[6;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/entities.py\e[7;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/run.py\e[8;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/leave.py\e[9;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m open-status.yml\e[10;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m pytest.ini\e[11;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m Pipfile\e[12;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m CONTRIBUTING.md\e[13;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.bat\e[14;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.sh\e[15;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.bat\e[16;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.sh\e[17;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/lint.sh\e[18;3H\e[38;5;172m\e[48;5;234m> \e[33mscripts/lint.bat\e[19;3H\e[49m\e[38;5;250m  \e[38;5;110m53/53\e[20;3H\e[m\x0F"
+  - delay: 5
+    content: "\e[2C"
+  - delay: 123
+    content: "\b\b"
+  - delay: 67
+    content: "\e[2C"
+  - delay: 13
+    content: "\e[2;3H\e[38;5;250m                   \e[3;3H               \e[4;3H                  \e[5;3H                \e[6;3H                   \e[7;3H              \e[8;3H                \e[9;3H                 \e[10;3H            \e[11;3H         \e[12;3H                 \e[13;3H                  \e[14;3H                 \e[15;3H                   \e[16;3H                  \e[17;5H\e[38;5;64mR\e[38;5;250mEADME.md      \e[18;5H\e[33m\e[48;5;234mCONT\e[38;5;172mR\e[33mIBUTING.md\e[49m\e[38;5;250m \e[19;5H\e[38;5;110m2/53\e[38;5;250m \e[20;5HR\e[7m \b\b\e[m\x0F"
+  - delay: 70
+    content: "\e[C\e[17;3H\e[38;5;250m           \e[18;5H\e[38;5;172m\e[48;5;234mRE\e[33mADME.md\e[49m\e[38;5;250m      \e[19;5H\e[38;5;110m1\n\e[38;5;250mE\e[7m \b\b\e[m\x0F"
+  - delay: 10
+    content: "\e[C"
+  - delay: 7
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 28 PM \e[m\x0F\e[20;7H\e[2 q\e[2A\e[38;5;172m\e[48;5;234mA\e[20;7H\e[49m\e[38;5;250mA\e[7m \b\b\e[m\x0F"
+  - delay: 119
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2A\e[38;5;172m\e[48;5;234mD\e[20;8H\e[49m\e[38;5;250mD\e[7m \b\b\e[m\x0F"
+  - delay: 77
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2A\e[38;5;172m\e[48;5;234mM\e[20;9H\e[49m\e[38;5;250mM\e[7m \b\b\e[m\x0F"
+  - delay: 132
+    content: "\e[C"
+  - delay: 9
+    content: "\e[2A\e[38;5;172m\e[48;5;234mE\e[20;10H\e[49m\e[38;5;250mE\e[7m \b\b\e[m\x0F"
+  - delay: 359
+    content: "\e[C\e[2;3H"
+  - delay: 280
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 29 PM \e[m\x0F\e[2;3H\e[2 q"
+  - delay: 193
+    content: "\e[H\e[38;5;64m\e[48;5;235m \e[22;1H\e[49m\e[38;5;250m        \e[1;2H\e[38;5;64m\e[48;5;235m README.md \e[38;5;240m                                                                    \e[38;5;64m 2\e[2;3H\e[49m\e[1m1   \e[m\x0F\e[38;5;143m#\e[38;5;64m GatorGrader\e[3;3H\e[38;5;243m  1 \e[4;3H  2 \e[38;5;250m![\e[38;5;110mImage of Logo\e[38;5;250m](\e[38;5;167m.github/gatorgraderlogotitled.png\e[38;5;250m)\e[5;3H\e[38;5;243m  3 \e[6;3H  4 \e[38;5;64m<\e[38;5;110mp\e[38;5;64m \e[38;5;172malign\e[38;5;64m=\e[38;5;143m\"center\"\e[38;5;64m>\e[7;3H\e[38;5;243m  5 \e[38;5;64m<\e[38;5;110mb\e[38;5;64m>\e[8;3H\e[38;5;243m  6 \e[38;5;250m\e[1mThe only tool you'll need to ensure your student's code and writing is up to\e[9;3H\e[m\x0F\e[38;5;243m  7 \e[38;5;250m\e[1mspeed!\e[10;3H\e[m\x0F\e[38;5;243m  8 \e[38;5;96m</\e[38;5;110mb\e[38;5;96m>\e[11;3H\e[38;5;243m  9 \e[38;5;96m</\e[38;5;110mp\e[38;5;96m>\e[12;3H\e[38;5;243m 10 \e[13;3H 11 \e[m\x0F\e[38;5;250m[![\e[38;5;110mBuild Status\e[38;5;250m](\e[38;5;167mhttps://api.travis-ci.org/GatorEducator/gatorgrader.svg?     \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m)](\e[38;5;167mhttps://travis-ci.org/GatorEducator/gatorgrader\e[38;5;250m) [![\e[38;5;110mWindows \e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;110mBuild Status\e[38;5;250m](\e[38;5;167mhttps://ci.appveyor.com/api/projects/status/github/           \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mgatoreducator/gatorgrader?branch=master&svg=true\e[38;5;250m)](\e[38;5;167mhttps://ci.appveyor.com/ \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mproject/GatorEducator/gatorgrader/branch/master\e[38;5;250m) [![\e[38;5;110mcodecov.io\e[38;5;250m](\e[38;5;167mhttp://     \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mcodecov.io/github/GatorEducator/gatorgrader/coverage.svg?                   \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m)](\e[38;5;167mhttp://codecov.io/github/GatorEducator/gatorgrader?         \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m) [![\e[38;5;110mcodacy.com\e[38;5;250m](\e[38;5;167mhttps://api.codacy.com/project/badge/Grade/   \e[20;82H\e[38;5;237m@@@\e[21;1H\e[38;5;250m\e[48;5;235m<ox-local-tests   README.md    Tags   0   0   utf-8  markdown   \e[38;5;235m\e[48;5;110m\e[1m   0%    1:1  \e[2;7H\e[34h\e[?25h\e[m\x0F"
+  - delay: 64
+    content: "\e[14;1H\e[38;5;110m\e[48;5;234m \e[82C\e[49m \e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m) [![\e[38;5;110mcodacy.com\e[38;5;250m](\e[38;5;167mhttps://api.codacy.com/project/badge/Grade/   \e[20;82H\e[38;5;237m@@@\e[2;7H\e[m\x0F"
+  - delay: 223
+    content: "\e[8;1H\e[38;5;143m▲ \e[38;5;243m  6 \e[38;5;250m\e[1mThe \e[38;5;110m\e[4monly\e[14;1H\e[m\x0F\e[38;5;110m\e[48;5;234m \e[82C\e[49m \e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m) [![\e[38;5;110mcodacy.com\e[38;5;250m](\e[38;5;167mhttps://api.codacy.com/project/badge/Grade/   \e[20;82H\e[38;5;237m@@@\e[21;2H\e[38;5;250m\e[48;5;235mx-local-tests   README.md    Tags   23\e[2;7H\e[m\x0F"
+  - delay: 202
+    content: "\e[9;1H\e[38;5;143m▲ \e[38;5;243m  7 \e[38;5;250m\e[1mspeed\e[38;5;110m\e[4m!\e[14;1H\e[m\x0F\e[38;5;110m\e[48;5;234m \e[82C\e[49m \e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m) [![\e[38;5;110mcodacy.com\e[38;5;250m](\e[38;5;167mhttps://api.codacy.com/project/badge/Grade/   \e[20;82H\e[38;5;237m@@@\e[21;42H\e[38;5;250m\e[48;5;235m5\e[2;7H\e[m\x0F"
+  - delay: 86
+    content: "\e[14;1H\e[38;5;110m\e[48;5;234m \e[82C\e[49m \e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m \e[82C\e[49m\e[38;5;167m \e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;243m    \e[38;5;237m━━\e[38;5;167mbranch=master\e[38;5;250m) [![\e[38;5;110mcodacy.com\e[38;5;250m](\e[38;5;167mhttps://api.codacy.com/project/badge/Grade/   \e[20;82H\e[38;5;237m@@@\e[2;7H\e[m\x0F"
+  - delay: 233
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 30 PM \e[m\x0F\e[2;7H\e[34h\e[?25h\e[2 q"
+  - delay: 192
+    content: "\e[?25l\e[22;1H\e[38;5;250m:FZFMine\r\e[34h\e[?25h\e[m\x0F"
+  - delay: 49
+    content: "\e[?25l\e[H\e[38;5;250m\e[48;5;235m  README.md \e[38;5;240m                                                                    \e[38;5;64m 3\e[2;3H\e[49m\e[38;5;250m\e[7m \e[m\x0F\e[38;5;250m                \e[3;3H    \e[4;3H                                                       \e[5;3H    \e[6;3H                      \e[7;3H       \r\n\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                \r\n\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m          \e[10;3H        \e[11;3H        \e[12;3H    \e[13;3H                                                                                  \e[14;3H                                                                                  \e[15;3H                                                                                  \e[16;3H                                                                                  \e[17;3H                                                                         \e[m\x0F\e[38;5;250m         \e[18;3H                                                                                  \e[19;3H                                                                                  \e[20;3H                                                                                  \e[21;1H\e[38;5;235m\e[48;5;110m\e[1m  FIND  \e[m\x0F\e[38;5;110m\e[48;5;235m                                                                            \e[2;3H\e[m\x0F"
+  - delay: 11
+    content: "\e[38;5;250m \e[19;3H\e[38;5;109m/\e[38;5;250m \e[38;5;110m0/0\e[20;3H> \e[38;5;250m\e[7m \e[3D\e[m\x0F"
+  - delay: 21
+    content: "\eM\e[38;5;109m-\e[38;5;250m \e[38;5;110m0/53\e[20;3H\e[m\x0F\e[2C"
+  - delay: 9
+    content: "\e[2;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/markdown.py\e[3;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/util.py\e[4;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/display.py\e[5;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/files.py\e[6;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/entities.py\e[7;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/run.py\e[8;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/leave.py\e[9;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m open-status.yml\e[10;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m pytest.ini\e[11;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m Pipfile\e[12;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m CONTRIBUTING.md\e[13;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.bat\e[14;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.sh\e[15;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.bat\e[16;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.sh\e[17;3H\e[38;5;172m\e[48;5;234m \e[m\x0F\e[38;5;250m scripts/lint.sh\e[18;3H\e[38;5;172m\e[48;5;234m> \e[33mscripts/lint.bat\e[19;3H\e[49m\e[38;5;250m  \e[38;5;110m53/53\e[20;3H\e[m\x0F"
+  - delay: 250
+    content: "\e[2C"
+  - delay: 46
+    content: "\e[2;5H\e[38;5;64mg\e[38;5;250mator/repository.py\e[3;5H\e[38;5;64mg\e[38;5;250mator/fragments.py\e[4;5H\e[38;5;64mg\e[38;5;250mator/invoke.py \e[5;5H\e[38;5;64mg\e[38;5;250mator/report.py\e[6;5H\e[38;5;64mg\e[38;5;250mator/constants.py\e[7;5H\e[38;5;64mg\e[38;5;250mator/orchestrate.py\e[8;5H\e[38;5;64mg\e[38;5;250mator/comments.py\e[9;5H\e[38;5;64mg\e[38;5;250mator/arguments.py\e[10;5H\e[38;5;64mg\e[38;5;250mator/__init__.py\e[11;5H\e[38;5;64mg\e[38;5;250mator/markdown.py\e[12;5H\e[38;5;64mg\e[38;5;250mator/util.py  \e[13;5H\e[38;5;64mg\e[38;5;250mator/display.py\e[14;5H\e[38;5;64mg\e[38;5;250mator/files.py \e[15;5H\e[38;5;64mg\e[38;5;250mator/entities.py\e[16;5H\e[38;5;64mg\e[38;5;250mator/run.py    \e[17;5H\e[38;5;64mg\e[38;5;250mator/leave.py \e[18;5H\e[33m\e[48;5;234mCONTRIBUTIN\e[38;5;172mG\e[33m.md\e[49m\e[38;5;250m \e[19;5H\e[38;5;110m2\e[20;5H\e[38;5;250mg\e[m\x0F\e[38;5;250m\e[7m \b\b\e[m\x0F"
+  - delay: 62
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2;6H\e[38;5;64ma\e[38;5;250mtorgrader.py     \e[3;6H\e[38;5;64ma\e[38;5;250mtor/repository.py\e[4;6H\e[38;5;64ma\e[38;5;250mtor/fragments.py\e[5;6H\e[38;5;64ma\e[38;5;250mtor/invoke\e[6;6H\e[38;5;64ma\e[38;5;250mtor/report.py   \e[7;6H\e[38;5;64ma\e[38;5;250mtor/constants.py  \e[8;6H\e[38;5;64ma\e[38;5;250mtor/orchestrate.py\e[9;6H\e[38;5;64ma\e[38;5;250mtor/comments.py \e[10;6H\e[38;5;64ma\e[38;5;250mtor/arguments.py\e[11;6H\e[38;5;64ma\e[38;5;250mtor/__init__\e[12;6H\e[38;5;64ma\e[38;5;250mtor/markdown.py\e[13;6H\e[38;5;64ma\e[38;5;250mtor/util.py   \e[14;6H\e[38;5;64ma\e[38;5;250mtor/display.py\e[15;6H\e[38;5;64ma\e[38;5;250mtor/files.py   \e[16;6H\e[38;5;64ma\e[38;5;250mtor/entities.py\e[17;6H\e[38;5;64ma\e[38;5;250mtor/run.py  \e[18;5H\e[38;5;172m\e[48;5;234mga\e[33mtor/leave.py\e[49m\e[38;5;250m \e[19;5H\e[38;5;110m17\e[20;6H\e[38;5;250ma\e[7m \b\b\e[m\x0F"
+  - delay: 103
+    content: "\e[C"
+  - delay: 11
+    content: "\e[2;7H\e[38;5;64mt\e[3;7Ht\e[4;7Ht\e[5;7Ht\e[6;7Ht\e[7;7Ht\e[8;7Ht\e[9;7Ht\e[10;7Ht\e[11;7Ht\e[12;7Ht\e[13;7Ht\e[14;7Ht\e[15;7Ht\e[16;7Ht\e[17;7Ht\e[18;7H\e[38;5;172m\e[48;5;234mt\e[20;7H\e[49m\e[38;5;250mt\e[7m \b\b\e[m\x0F"
+  - delay: 76
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2;8H\e[38;5;64mo\e[3;8Ho\e[4;8Ho\e[5;8Ho\e[6;8Ho\e[7;8Ho\e[8;8Ho\e[9;8Ho\e[10;8Ho\e[11;8Ho\e[12;8Ho\e[13;8Ho\e[14;8Ho\e[15;8Ho\e[16;8Ho\e[17;8Ho\e[18;8H\e[38;5;172m\e[48;5;234mo\e[20;8H\e[49m\e[38;5;250mo\e[7m \b\b\e[m\x0F"
+  - delay: 117
+    content: "\e[C"
+  - delay: 9
+    content: "\e[2;9H\e[38;5;64mr\e[3;9Hr\e[4;9Hr\e[5;9Hr\e[6;9Hr\e[7;9Hr\e[8;9Hr\e[9;9Hr\e[10;9Hr\e[11;9Hr\e[12;9Hr\e[13;9Hr\e[14;9Hr\e[15;9Hr\e[16;9Hr\e[17;9Hr\e[18;9H\e[38;5;172m\e[48;5;234mr\e[20;9H\e[49m\e[38;5;250mr\e[7m \b\b\e[m\x0F"
+  - delay: 21
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 31 PM \e[m\x0F\e[20;9H\e[2 q"
+  - delay: 557
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2;3H\e[38;5;250m                \e[3;3H                     \e[4;3H                    \e[5;3H                 \e[6;3H                 \e[7;3H                    \e[8;3H                      \e[9;3H                   \e[10;3H                    \e[11;3H                   \e[12;3H                   \e[13;3H               \e[14;3H                  \e[15;3H                \e[16;10H\e[38;5;64mg\e[38;5;250mrader.py   \e[17;11Hfra\e[38;5;64mg\e[38;5;250mments.py\e[18;11H\e[33m\e[48;5;234mar\e[38;5;172mg\e[33muments.py\e[19;5H\e[49m\e[38;5;110m3/53\e[38;5;250m \ng\e[7m \b\b\e[m\x0F"
+  - delay: 219
+    content: "\e[C"
+  - delay: 11
+    content: "\e[16;3H\e[38;5;250m                \e[17;3H                    \e[18;10H\e[38;5;172m\e[48;5;234mgr\e[33mader.py\e[49m\e[38;5;250m    \e[19;5H\e[38;5;110m1\e[20;11H\e[38;5;250mr\e[7m \b\b\e[m\x0F"
+  - delay: 29
+    content: "\e[C"
+  - delay: 11
+    content: "\e[2A\e[38;5;172m\e[48;5;234ma\e[20;12H\e[49m\e[38;5;250ma\e[7m \b\b\e[m\x0F"
+  - delay: 159
+    content: "\e[C"
+  - delay: 5
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 32 PM \e[m\x0F\e[20;13H\e[2 q"
+  - delay: 6
+    content: "\e[2A\e[38;5;172m\e[48;5;234md\e[20;13H\e[49m\e[38;5;250md\e[7m \b\b\e[m\x0F"
+  - delay: 132
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2A\e[38;5;172m\e[48;5;234me\e[20;14H\e[49m\e[38;5;250me\e[7m \b\b\e[m\x0F"
+  - delay: 78
+    content: "\e[C"
+  - delay: 10
+    content: "\e[2A\e[38;5;172m\e[48;5;234mr\e[20;15H\e[49m\e[38;5;250mr\e[7m \b\b\e[m\x0F"
+  - delay: 348
+    content: "\e[C\e[2;3H"
+  - delay: 416
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 33 PM \e[m\x0F\e[2;3H\e[2 q"
+  - delay: 264
+    content: "\e[22;1H\e[38;5;250mHighlighter: updated\e[m\x0F"
+  - delay: 399
+    content: "\e[1;14H\e[38;5;64m\e[48;5;235m \e[22;1H\e[49m\e[38;5;250m                    \e[1;15H\e[38;5;64m\e[48;5;235m gatorgrader.py \e[38;5;240m                                                  \e[38;5;64m 4\e[2;3H\e[49m\e[1m1   \e[m\x0F\e[38;5;143m\"\"\"GatorGrader checks the files of programmers and technical writers.\"\"\"\e[3;3H\e[38;5;243m  1 \e[4;3H  2 \e[38;5;172mimport\e[38;5;250m \e[38;5;110msys\e[5;3H\e[38;5;243m  3 \e[6;3H  4 \e[38;5;172mfrom\e[38;5;250m gator \e[38;5;172mimport\e[38;5;250m \e[38;5;110morchestrate\e[7;3H\e[38;5;243m  5 \e[8;3H  6 \e[9;3H  7 \e[38;5;172mif\e[38;5;250m \e[38;5;64m\e[4m__name__\e[m\x0F\e[38;5;250m == \e[38;5;143m\"__main__\"\e[38;5;250m:\e[10;3H\e[38;5;243m  8 \e[38;5;250m    \e[38;5;243m\e[3m# orchestrate check(s) of the specified deliverable(s)\e[11;3H\e[m\x0F\e[38;5;243m  9 \e[38;5;250m    exit_code = \e[38;5;110morchestrate\e[38;5;250m.check(\e[38;5;110msys\e[38;5;250m.argv[\e[38;5;167m1\e[38;5;250m:])\e[12;3H\e[m\x0F\e[38;5;243m 10 \e[38;5;250m    \e[38;5;243m\e[3m# exit the program with the correct code\e[13;3H\e[m\x0F\e[38;5;243m 11 \e[38;5;250m    \e[38;5;243m\e[3m# error code: one aspect of the checks failed\e[14;3H\e[m\x0F\e[38;5;243m 12 \e[38;5;250m    \e[38;5;243m\e[3m# normal code: all aspects of the checks passed\e[15;3H\e[m\x0F\e[38;5;243m 13 \e[38;5;250m    \e[38;5;110msys\e[38;5;250m.exit(exit_code)\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;237m~\e[39m\e[K\r\n\e[38;5;250m\e[48;5;235m<local-tests   gatorgrader.py    Tags   0   0   utf-8  python   \e[38;5;235m\e[48;5;110m\e[1m   7%    1:1  \e[2;7H\e[34h\e[?25h\e[m\x0F"
+  - delay: 338
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 34 PM \e[m\x0F\e[2;7H\e[34h\e[?25h\e[2 q"
+  - delay: 70
+    content: "\e[21;2H\e[38;5;250m\e[48;5;235mox-local-tests   gatorgrader.py  Tags \e[2;7H\e[m\x0F"
+  - delay: 931
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 35 PM \e[m\x0F\e[2;7H\e[34h\e[?25h\e[2 q"
+  - delay: 236
+    content: "\e[22;1H\e[38;5;250m:FZFMine\r\e[m\x0F"
+  - delay: 30
+    content: "\e[?25l\e[1;14H\e[38;5;250m\e[48;5;235m  gatorgrader.py \e[38;5;240m                                                  \e[38;5;64m 5\e[2;3H\e[49m\e[38;5;250m\e[7m \e[m\x0F\e[38;5;250m                                                                           \e[3;3H    \e[4;3H              \e[5;3H    \e[6;3H                                 \e[7;3H    \e[8;3H    \e[9;3H                              \e[10;3H                                                              \e[11;3H                                                   \e[12;3H                                                \e[13;3H                                                     \e[14;3H                                                       \e[15;3H                           \r\n\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[17;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[18;1H\e[m\x0F\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[19;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[20;1H\e[38;5;110m\e[48;5;234m  \e[49m\e[38;5;250m                                                                                  \e[21;1H\e[38;5;235m\e[48;5;110m\e[1m  FIND  \e[m\x0F\e[38;5;110m\e[48;5;235m                                                                            \e[2;3H\e[m\x0F"
+  - delay: 11
+    content: "\e[38;5;250m \e[19;3H\e[38;5;109m\\\e[38;5;250m \e[38;5;110m0/0\e[20;3H> \e[38;5;250m\e[7m \e[3D\e[m\x0F"
+  - delay: 8
+    content: "\e[2C"
+  - delay: 16
+    content: "\e[2;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/markdown.py\e[3;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/util.py\e[4;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/display.py\e[5;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/files.py\e[6;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/entities.py\e[7;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/run.py\e[8;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m gator/leave.py\e[9;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m open-status.yml\e[10;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m pytest.ini\e[11;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m Pipfile\e[12;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m CONTRIBUTING.md\e[13;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.bat\e[14;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/test.sh\e[15;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.bat\e[16;3H\e[38;5;172m\e[48;5;234m \e[49m\e[38;5;250m scripts/cover.sh\e[17;3H\e[38;5;172m\e[48;5;234m \e[m\x0F\e[38;5;250m scripts/lint.sh\e[18;3H\e[38;5;172m\e[48;5;234m> \e[33mscripts/lint.bat\e[19;3H\e[49m\e[38;5;250m  \e[38;5;110m53/53\e[20;3H\e[m\x0F"
+  - delay: 86
+    content: "\e[2C"
+  - delay: 79
+    content: "\b\b"
+  - delay: 43
+    content: "\e[2C"
+  - delay: 7
+    content: "\e[C\e[2;7H\e[38;5;64mt\e[38;5;250mor/__init__\e[3;7H\e[38;5;64mt\e[38;5;250mor/markdown.py\e[4;7H\e[38;5;64mt\e[38;5;250mor/util.py   \e[5;7H\e[38;5;64mt\e[38;5;250mor/display.py\e[6;7H\e[38;5;64mt\e[38;5;250mor/files.py   \e[7;7H\e[38;5;64mt\e[38;5;250mor/entities.py\e[8;7H\e[38;5;64mt\e[38;5;250mor/run.py  \e[9;5Hga\e[38;5;64mt\e[38;5;250mor/leave.py \e[10;5Hopen-s\e[38;5;64mt\e[38;5;250matus.yml\e[11;5Hpy\e[38;5;64mt\e[38;5;250mest.ini\e[12;8H\e[38;5;64mT\e[13;13Ht\e[14;13Ht\e[15;10Ht\e[16;10Ht\e[17;10Ht\e[18;10H\e[38;5;172m\e[48;5;234mt\e[19;5H\e[49m\e[38;5;110m47\e[20;5H\e[38;5;250mt\e[7m \b\b\e[m\x0F"
+  - delay: 42
+    content: "\e[C"
+  - delay: 40
+    content: "\e[2;5H\e[38;5;64mte\e[38;5;250msts/test_files.py\e[3;10Hgrad\e[38;5;64me\e[38;5;250mr.py   \e[4;11Hr\e[38;5;64me\e[38;5;250mpository.py\e[5;11Hfragm\e[38;5;64me\e[38;5;250mnts.py\e[6;11Hinvok\e[38;5;64me\e[38;5;250m.py\e[7;11Hr\e[38;5;64me\e[38;5;250mport.py  \e[8;7Htor/orchestra\e[38;5;64mte\e[38;5;250m.py\e[9;11Hcomm\e[38;5;64me\e[38;5;250mnts.py\e[10;5Hga\e[38;5;64mt\e[38;5;250mor/argum\e[38;5;64me\e[38;5;250mnts.py\e[11;5Hga\e[38;5;64mt\e[38;5;250mor/fil\e[38;5;64me\e[38;5;250ms.py\e[12;5Hga\e[38;5;64mt\e[38;5;250mor/\e[38;5;64me\e[38;5;250mntities.py\e[13;5Hga\e[38;5;64mt\e[38;5;250mor/l\e[38;5;64me\e[38;5;250mave.py  \e[14;5Hpy\e[38;5;64mte\e[38;5;250mst.ini     \e[15;10Hts/\e[38;5;64mte\e[38;5;250mst.bat \e[16;10Hts/\e[38;5;64mte\e[38;5;250mst.sh \e[17;13Hcov\e[38;5;64me\e[38;5;250mr.bat\e[18;13H\e[33m\e[48;5;234mcov\e[38;5;172me\e[33mr.sh\e[19;5H\e[m\x0F\e[38;5;110m32\e[20;6H\e[38;5;250me\e[7m \b\b\e[m\x0F"
+  - delay: 41
+    content: "\e[C"
+  - delay: 11
+    content: "\e[2;7H\e[38;5;64ms\e[38;5;250mts/test_run.py  \e[3;5H\e[38;5;64mtes\e[38;5;250mts/test_leave.py\e[4;5H\e[38;5;64mtes\e[38;5;250mts/conftest.py  \e[5;5H\e[38;5;64mtes\e[38;5;250mts/test_comments.py\e[6;5H\e[38;5;64mtes\e[38;5;250mts/test_markdown.py\e[7;5H\e[38;5;64mtes\e[38;5;250mts/test_files.py\e[8;7H\e[38;5;64mt\e[38;5;250mor/r\e[38;5;64me\e[38;5;250mpo\e[38;5;64ms\e[38;5;250mitory.py \e[9;11Hfragm\e[38;5;64me\e[38;5;250mnt\e[38;5;64ms\e[38;5;250m.py\e[10;11Horch\e[38;5;64mes\e[38;5;250mtrate.py\e[11;11Hcomm\e[38;5;64me\e[38;5;250mnt\e[38;5;64ms\e[38;5;250m.py\e[12;11Hargum\e[38;5;64me\e[38;5;250mnt\e[38;5;64ms\e[38;5;250m.py\e[13;11Hfil\e[38;5;64mes\e[14;5H\e[38;5;250mgator/enti\e[38;5;64mt\e[38;5;250mi\e[38;5;64mes\e[38;5;250m.py\e[15;5Hpy\e[38;5;64mtes\e[38;5;250mt.ini      \e[16;15H\e[38;5;64ms\e[38;5;250mt.bat\e[17;10Hts/\e[38;5;64mtes\e[38;5;250mt.sh  \e[18;19H\e[m\x0F\e[38;5;172m\e[48;5;234ms\e[19;5H\e[49m\e[38;5;110m27\n\e[38;5;250ms\e[7m \b\b\e[m\x0F"
+  - delay: 67
+    content: "\e[C"
+  - delay: 11
+    content: "\e[2;8H\e[38;5;64mt\e[38;5;250ms/test_repository.py\e[3;8H\e[38;5;64mt\e[38;5;250ms/test_display.py\e[4;8H\e[38;5;64mt\e[38;5;250ms/test_arguments.py\e[5;8H\e[38;5;64mt\e[38;5;250ms/test_invoke.py  \e[6;8H\e[38;5;64mt\e[38;5;250ms/test_orchestrate.py\e[7;8H\e[38;5;64mt\e[38;5;250ms/__init__.py  \e[8;5H\e[38;5;64mtest\e[38;5;250ms/test_run.py  \e[9;5H\e[38;5;64mtest\e[38;5;250ms/test_leave.py\e[10;5H\e[38;5;64mtest\e[38;5;250ms/conftest.py   \e[11;5H\e[38;5;64mtest\e[38;5;250ms/test_comments.py\e[12;5H\e[38;5;64mtest\e[38;5;250ms/test_markdown.py\e[13;5H\e[38;5;64mtest\e[38;5;250ms/test_files.py\e[14;7H\e[38;5;64mt\e[38;5;250mor/r\e[38;5;64me\e[38;5;250mpo\e[38;5;64ms\e[38;5;250mi\e[38;5;64mt\e[38;5;250mory.py\e[15;5Hga\e[38;5;64mt\e[38;5;250mor/orch\e[38;5;64mest\e[38;5;250mrate.py\e[16;5Hpy\e[38;5;64mtest\e[38;5;250m.ini      \e[17;16H\e[38;5;64mt\e[38;5;250m.bat\e[18;10H\e[m\x0F\e[33m\e[48;5;234mts/\e[38;5;172mtest\e[33m.sh\e[49m\e[38;5;250m \e[19;6H\e[38;5;110m1\e[20;8H\e[38;5;250mt\e[7m \b\b\e[m\x0F"
+  - delay: 268
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 36 PM \e[m\x0F\e[20;8H\e[2 q"
+  - delay: 128
+    content: "\e[C"
+  - delay: 11
+    content: "\e[2;3H\e[38;5;250m                          \e[3;3H                       \e[4;5Htests/\e[38;5;64mtest_\e[38;5;250mfrag\e[5;5Htests/\e[38;5;64mtest_\e[38;5;250mconstants.py\e[6;5Htests/\e[38;5;64mtest_\e[38;5;250mutil.py       \e[7;5Htests/\e[38;5;64mtest_\e[38;5;250mreport.py\e[8;5Htests/\e[38;5;64mtest_\e[38;5;250mrepository.py\e[9;5Htests/\e[38;5;64mtest_\e[38;5;250mdisplay.py\e[10;5Htests/\e[38;5;64mtest_\e[38;5;250marguments.py\e[11;5Htests/\e[38;5;64mtest_\e[38;5;250minvoke.py  \e[12;5Htests/\e[38;5;64mtest_\e[38;5;250morchestrate.py\e[13;11H\e[38;5;64m_\e[38;5;250m_init__.py  \e[14;5Htests/\e[38;5;64mtest_\e[38;5;250mrun.py  \e[15;5Htests/\e[38;5;64mtest_\e[38;5;250mleave.py \e[16;5Htests/\e[38;5;64mtest_\e[38;5;250mcomments.py\e[17;5Htests/\e[38;5;64mtest_\e[38;5;250mmarkdown.py\e[18;5H\e[33m\e[48;5;234mtests/\e[38;5;172mtest_\e[33mfiles.py\e[19;5H\e[49m\e[38;5;110m15\e[20;9H\e[m\x0F\e[38;5;250m_\e[7m \b\b\e[m\x0F"
+  - delay: 399
+    content: "\e[C"
+  - delay: 10
+    content: "\e[4;3H\e[38;5;250m                         \e[5;3H                         \e[6;3H                    \e[7;3H                      \e[8;3H                          \e[9;3H                       \e[10;3H                         \e[11;3H                      \e[12;3H                           \e[13;3H                   \e[14;3H                   \e[15;3H                     \e[16;16H\e[38;5;64mu\e[38;5;250mtil.py    \e[17;16Harg\e[38;5;64mu\e[38;5;250mments.py\e[18;16H\e[33m\e[48;5;234mr\e[38;5;172mu\e[33mn.py\e[49m\e[38;5;250m  \e[19;5H\e[38;5;110m3/53\e[38;5;250m \nu\e[7m \b\b\e[m\x0F"
+  - delay: 119
+    content: "\e[C"
+  - delay: 11
+    content: "\e[16;3H\e[38;5;250m                    \e[17;16H\e[38;5;64mut\e[38;5;250mil.py     \e[18;16H\e[33m\e[48;5;234marg\e[38;5;172mu\e[33mmen\e[38;5;172mt\e[33ms.py\e[19;5H\e[49m\e[38;5;110m2\e[20;11H\e[38;5;250mt\e[7m \b\b\e[m\x0F"
+  - delay: 69
+    content: "\e[C"
+  - delay: 11
+    content: "\e[17;3H\e[38;5;250m                    \e[18;16H\e[38;5;172m\e[48;5;234muti\e[33ml.py\e[49m\e[38;5;250m     \e[19;5H\e[38;5;110m1\e[20;12H\e[38;5;250mi\e[7m \b\b\e[m\x0F"
+  - delay: 82
+    content: "\e[C"
+  - delay: 9
+    content: "\e[18;19H\e[38;5;172m\e[48;5;234ml\e[20;13H\e[49m\e[38;5;250ml\e[7m \b\b\e[m\x0F"
+  - delay: 153
+    content: "\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 37 PM \e[m\x0F\e[20;13H\e[2 q"
+  - delay: 344
+    content: "\e[C\e[2;3H"
+  - delay: 369
+    content: "\e[22;1H\e[38;5;250mHighlighter: updated\e[m\x0F"
+  - delay: 59
+    content: "\e[1;32H\e[38;5;64m\e[48;5;235m \e[22;1H\e[49m\e[38;5;250m                    \e[1;33H\e[38;5;64m\e[48;5;235m t/test_util.py \e[38;5;240m                                \e[38;5;64m 6\e[2;3H\e[49m\e[1m1   \e[m\x0F\e[38;5;143m\"\"\"Test cases for the util module.\"\"\"\e[3;3H\e[38;5;243m  1 \e[4;3H  2 \e[38;5;172mimport\e[38;5;250m \e[38;5;110mjson\e[5;3H\e[38;5;243m  3 \e[38;5;172mimport\e[38;5;250m \e[38;5;110mos\e[6;3H\e[38;5;243m  4 \e[7;3H  5 \e[38;5;172mfrom\e[38;5;250m gator \e[38;5;172mimport\e[38;5;250m \e[38;5;110mconstants\e[8;3H\e[38;5;243m  6 \e[38;5;172mfrom\e[38;5;250m gator \e[38;5;172mimport\e[38;5;250m \e[38;5;110mfiles\e[9;3H\e[38;5;243m  7 \e[38;5;172mfrom\e[38;5;250m gator \e[38;5;172mimport\e[38;5;250m \e[38;5;110mutil\e[10;3H\e[38;5;243m  8 \e[11;3H  9 \e[38;5;250mVERIFIED = \e[38;5;167mTrue\e[12;3H\e[38;5;243m 10 \e[38;5;250mNOT_VERIFIED = \e[38;5;167mFalse\e[13;3H\e[38;5;243m 11 \e[14;3H 12 \e[15;3H 1\e[m\x0F\e[38;5;243m3 \e[38;5;172mdef\e[38;5;250m \e[38;5;64mtest_correct_true_readable\e[38;5;250m():\e[16;3H\e[38;5;243m 14 \e[38;5;250m    \e[38;5;143m\"\"\"Check to ensure that true input returns yes.\"\"\"\e[17;3H\e[38;5;243m 15 \e[38;5;250m    human_value = \e[38;5;110mutil\e[38;5;250m.get_human_answer(\e[38;5;167mTrue\e[38;5;250m)\e[18;3H\e[38;5;243m 16 \e[38;5;250m    \e[38;5;172massert\e[38;5;250m human_value == \e[38;5;143m\"Yes\"\e[19;3H\e[38;5;243m 17 \e[38;5;250m  \e[20;3H\e[38;5;243m 18 \e[38;5;250m        \r\n\e[48;5;235m<-tox-local-tests   test_util.py  Tags   0   0   utf-8  python   \e[38;5;235m\e[48;5;110m\e[1m   0%    1:1  \e[2;7H\e[m\x0F\e[34h\e[?25h"
+  - delay: 226
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 38 PM \e[m\x0F\e[2;7H\e[34h\e[?25h\e[2 q"
+  - delay: 1001
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 39 PM \e[m\x0F\e[2;7H\e[34h\e[?25h\e[2 q"
+  - delay: 766
+    content: "\e[22;1H\e[38;5;250m:\e[m\x0F"
+  - delay: 117
+    content: "\e[38;5;250mw\e[m\x0F"
+  - delay: 119
+    content: "\e[?25l\e[2 q\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 40 PM \e[m\x0F\e[22;3H\e[34h\e[?25h\e[2 q"
+  - delay: 10
+    content: "\r\e[38;5;250m\"tests/test_util.py\"\e[C429L, 14587C\e[m\x0F"
+  - delay: 106
+    content: "\e[?25l\e[21;2H\e[38;5;250m\e[48;5;235mx-local-tests   test_util.py    Tags \e[22;34H\e[m\x0F\e[34h\e[?25h\e[?25l\e[2;7H\e[34h\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[22;1H\e[38;5;250mHighlighter: updated\e[C            \e[13D\e[34h\e[?25h\e[m\x0F"
+  - delay: 15
+    content: "\e[?25l\e[2;7H\e[34h\e[?25h"
+  - delay: 194
+    content: "\e[22;1H\e[38;5;250m                    \r:\e[m\x0F"
+  - delay: 98
+    content: "\e[38;5;250mq\e[m\x0F"
+  - delay: 232
+    content: "\r"
+  - delay: 39
+    content: "\e[?25l\e[33m\e[1m\e[Hgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[32mpipenv\e[39m shell   \e[K\r\nLaunching subshell in virtual environment…\e[K\r\n . /home/gkapfham/.local/share/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyen\e[4;1Hv/shims/python/bin/activate\e[K\e[33m\e[1m\r\ngkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F  \e[32m.\e[39m \e[94m/home/gkapfham/.local/sh\e[6;1Hare/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyenv/shims/python/bin/activate\e[39m\e[7;1H \e[K\e[33m\e[1m\r\ngkapfham in \e[32msource/gatorgrader [python] \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[32mnvim\e[39m\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[34h\e[?25h\e[?2004l"
+  - delay: 162
+    content: "                                                                                 \e[9;1H       \r"
+  - delay: 71
+    content: "\e[1;22r\e[10;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[9;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader [python] \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[9;67H\e[?2004h"
+  - delay: 12
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 41 PM \e[m\x0F\e[9;67H\e[34h\e[?25h\e[2 q"
+  - delay: 1000
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 42 PM \e[m\x0F\e[9;67H\e[34h\e[?25h\e[2 q"
+  - delay: 222
+    content: "\e[31m\e[1me\e[m\x0F"
+  - delay: 8
+    content: "\b\e[31m\e[1me\e[m\x0F\e[38;5;240mxit\e[3D\e[m\x0F"
+  - delay: 188
+    content: "\b\e[32mex\e[m\x0F"
+  - delay: 113
+    content: "\b\b\e[31m\e[1mexi\e[m\x0F"
+  - delay: 125
+    content: "\e[3D\e[32mexit\e[m\x0F"
+  - delay: 160
+    content: "\e[?2004l\r\n"
+  - delay: 185
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 43 PM \e[m\x0F\e[10;1H\e[34h\e[?25h\e[2 q"
+  - delay: 28
+    content: "                                                                                 \e[10;1H       \r"
+  - delay: 48
+    content: "\e[1;22r\e[11;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[10;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[33m\e[1m≡\e[m\x0F \e[K\e[1;23r\e[10;58H\e[?2004h"
+  - delay: 925
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 44 PM \e[m\x0F\e[10;58H\e[34h\e[?25h\e[2 q"
+  - delay: 35
+    content: "\e[32mt\e[m\x0F"
+  - delay: 5
+    content: "\b\e[32mt\e[38;5;240mmm\b\b\e[m\x0F"
+  - delay: 51
+    content: "\b\e[31m\e[1mtm\e[m\x0F"
+  - delay: 167
+    content: "\b\b\e[31m\e[1mtmu\e[m\x0F"
+  - delay: 9
+    content: "\e[38;5;240mx kill-session\e[14D\e[m\x0F"
+  - delay: 72
+    content: "\e[3D\e[32mtmux\e[m\x0F"
+  - delay: 132
+    content: ' '
+  - delay: 529
+    content: "\e[?25l\e[2 q\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 45 PM \e[m\x0F\e[10;63H\e[34h\e[?25h\e[2 q"
+  - delay: 25
+    content: kill-session
+  - delay: 242
+    content: "\r\n\e[?2004l"
+  - delay: 28
+    content: "\e[1;23r\e[m\x0F"
+  - delay: 10
+    content: "\e[?1l\e>\e[H\e[J\e[2 q\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[?1049l[exited]\r\n                                                                                 \r       \r"
+  - delay: 74
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[01;33mgkapfham in \e[01;32m~ \e[00m\e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 1290
+    content: "\e[?2004l\r\r\n"
