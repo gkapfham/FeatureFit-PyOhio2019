@@ -613,7 +613,7 @@ export default class Presentation extends Component {
             The Basics
           </Heading>
           <Heading size={4} textColor="tertiary">
-            Neovim
+            Vim or Neovim
           </Heading>
           <Layout>
             <Fill>
@@ -1074,7 +1074,7 @@ export default class Presentation extends Component {
         {/* Slide } */}
 
         {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+        <Slide transitionDuration={1000} transition={['slide']} align="center center" bgColor="primary">
           <Heading size={3} textColor="darktext">Convert tmpdir to a String</Heading>
           <Layout>
             <Text height={.25*minimalHorizontalPadding}>
@@ -1131,7 +1131,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
             <Fill>
-              <Text fill bold textSize="4em" textColor="secondary">100% total coverage</Text>
+              <Text fill bold textSize="4em" textColor="secondary">100% total coverage!</Text>
               <Text height={minimalHorizontalPadding}>
                 &nbsp;
               </Text>
