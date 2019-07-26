@@ -509,6 +509,25 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide } */}
 
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading fill size={1} textColor="secondary">Learn key editor features</Heading>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Layout>
+            <Heading size={4} textColor="tertiary">
+              Learn the basics before you copy confusing configurations
+            </Heading>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
@@ -543,7 +562,7 @@ export default class Presentation extends Component {
               <List bold textColor={darktext} textAlign="left" textSize="2em" start={1}>
                 <ListItem margin={minimalHorizontalPadding}>Open Command Palette: Ctrl+Shift+P</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>IntelliSense: Uses Language Server Protocol</ListItem>
-                <ListItem margin={minimalHorizontalPadding}>Save Configuration in User Settings</ListItem>
+                <ListItem margin={minimalHorizontalPadding}>Save Configuration in the User Settings</ListItem>
                 <ListItem margin={minimalHorizontalPadding}>Remember to Download the Python Extension</ListItem>
               </List>
             </Fill>
