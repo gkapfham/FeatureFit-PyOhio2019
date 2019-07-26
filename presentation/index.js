@@ -1107,16 +1107,16 @@ export default class Presentation extends Component {
         <Slide>
           <Layout>
             <Fill>
-              <Heading margin={standardMargin * 3} size={2}><Coverage /></Heading>
+              <Heading margin={standardMargin * 4.5} size={2}><Coverage /></Heading>
             </Fill>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
             </Text>
             <Fill>
-              <Text fill bold textSize="4.5em" textColor="secondary">100% total coverage</Text>
+              <Text fill bold textSize="4em" textColor="secondary">100% total coverage</Text>
               <Text height={minimalHorizontalPadding}>
                 &nbsp;
-            </Text>
+              </Text>
             </Fill>
           </Layout>
         </Slide>
