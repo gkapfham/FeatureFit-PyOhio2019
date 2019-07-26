@@ -1,0 +1,655 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: /bin/zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/gkapfham
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 84
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 23
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 50
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 500
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: solid
+    title: null
+    # style: []
+    # title: Terminalizer
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Hack Nerd Font Regular, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 22
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "#1c1c1c"
+    foreground: "#707880"
+    cursor: "#707880"
+    black: "#1c1c1c"
+    red: "#D78700"
+    green: "#5F8700"
+    yellow: "#AFAF5F"
+    blue: "#87AFD7"
+    magenta: "#875F87"
+    cyan: "#D75F5F"
+    white: "#A3ABB3"
+    brightBlack: "#1c1c1c"
+    brightRed: "#D78700"
+    brightGreen: "#5F8700"
+    brightYellow: "#AFAF5F"
+    brightBlue: "#87AFD7"
+    brightMagenta: "#875F87"
+    brightCyan: "#D75F5F"
+    brightWhite: "#A3ABB3"
+  
+# Records, feel free to edit them
+records:
+  - delay: 900
+    content: "                                                                                 \r       \r"
+  - delay: 50
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[01;33mgkapfham in \e[01;32m~ \e[00m\e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 760
+    content: "\e[32mt\e[39m"
+  - delay: 8
+    content: "\b\e[32mt\e[39m\e[38;5;240merminalizer record install-deps\e[39m\e[31D"
+  - delay: 70
+    content: "\b\e[1m\e[31mt\e[1m\e[31mm\e[0m\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[30D"
+  - delay: 6
+    content: "\e[38;5;240mux kill-session\e[39m\e[15D"
+  - delay: 122
+    content: "\b\b\e[0m\e[32mt\e[0m\e[32mm\e[32mm\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[14D"
+  - delay: 164
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
+  - delay: 44
+    content: "\e[?1049h\e[?1000h\e[22A\e[G\e[K\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;m\e[m\e[;m\e[m\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m96/96\e[m\e[1B\r\e[2C\e[22A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience481Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience441Spring2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience302Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience280Fall2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience280Fall2015\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience203Spring2019\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience112Spring2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience112Fall2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Spring2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Spring2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2017\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2016\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience111Fall2015\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience103Spring2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience101Fall2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mComputerScience100Fall2018\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mChair\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mBibliography\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mAVMFramework-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mAvatar-Creator\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[1B\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m96/96\e[m\e[1B\r\e[2C"
+  - delay: 18
+    content: "\r\e[2C"
+  - delay: 280
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mG\e[m\e[;m\e[m\r\e[3C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m9/96\e[m\e[21A\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;menerationPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;menerationQueries-Paper\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Presentation\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;meneration-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mWeb-\e[m\e[;38;5;64mG\e[m\e[;mregory-Kapfhammer\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGrouper-Code\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;matorGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234matorGrader-Code\e[m\e[2B\r\e[3C"
+  - delay: 91
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGa\e[m\e[;m\e[m\r\e[4C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m9/96\e[m\e[9A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mWeb-\e[m\e[;38;5;64mG\e[m\e[;mregory-K\e[m\e[;38;5;64ma\e[m\e[;mpfhammer\e[m\e[;m      \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtionPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtionQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;moth\e[m\e[;38;5;64ma\e[m\e[;mm2018-Presentation\e[m\e[;m   \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;mtion-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;mtorGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234mtorGrader-Code\e[m\e[2B\r\e[4C"
+  - delay: 111
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGat\e[m\e[;m\e[m\r\e[5C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m8/96\e[m\e[9A\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Present\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mion\e[m\e[;m   \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mion-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;morGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234morGrader-Code\e[m\e[2B\r\e[5C"
+  - delay: 87
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGato\e[m\e[;m\e[m\r\e[6C\e[1A\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m8/96\e[m\e[8A\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mPy\e[m\e[;38;5;64mG\e[m\e[;motham2018-Present\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnPosition-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnQueries-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn-Paper\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;mrGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mo\e[m\e[;33;48;5;234mrGrader-Code\e[m\e[2B\r\e[6C"
+  - delay: 125
+    content: "\r\e[;m                                                                                    \r\e[;38;5;110m> \e[m\e[;mGator\e[m\e[;m\e[m\r\e[7C\e[9A\r\e[;m                                                                                    \r\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mionPositi\e[m\e[;38;5;64mo\e[m\e[;mn-Pape\e[m\e[;38;5;64mr\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mDomino-Test-\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mn-Pape\e[m\e[;38;5;64mr\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;mData\e[m\e[;38;5;64mG\e[m\e[;mener\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;mi\e[m\e[;38;5;64mo\e[m\e[;mnQue\e[m\e[;38;5;64mr\e[m\e[;mies-Paper\e[m\e[;m \e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGrader-Sample\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGrouper-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m \e[m\e[;m \e[;m\e[m\e[;38;5;64mG\e[m\e[;m\e[m\e[;38;5;64ma\e[m\e[;m\e[m\e[;38;5;64mt\e[m\e[;m\e[m\e[;38;5;64mo\e[m\e[;m\e[m\e[;38;5;64mr\e[m\e[;mGradle-Code\e[m\e[1B\r\e[;38;5;172;48;5;234m>\e[m\e[;38;5;172;48;5;234m \e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mG\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234ma\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mt\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mo\e[m\e[;33;48;5;234m\e[m\e[;38;5;172;48;5;234mr\e[m\e[;33;48;5;234mGrader-Code\e[m\e[1B\r\e[;m                                                                                    \r\r\e[2C\e[;38;5;110m7/96\e[m\e[1B\r\e[7C"
+  - delay: 354
+    content: "\e[?1049l\e[?1000l"
+  - delay: 293
+    content: "\e[?1049h\e[?1h\e=\e[H\e[J\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;23r\e[2;1H\e[?1006h\e[?1002h\e[?25l\e[32m\e[1;3H0 kallistos zsh─────────────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 36 PM \e[m\x0F\e[2;1H\e[34h\e[?25h\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;23r\e[2;1H\e[?1006h\e[?1002h\e[?25l\e[32m\e[1;3H0 kallistos zsh─────────────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 36 PM \e[m\x0F\e[2;1H\e[34h\e[?25h"
+  - delay: 511
+    content: "                                                                                 \e[2;1H       \r"
+  - delay: 78
+    content: "\e[2;22r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[32m\e[1m✔\e[m\x0F \e[K\e[1;23r\e[2;58H\e[?2004h"
+  - delay: 411
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 37 PM \e[m\x0F\e[2;58H\e[34h\e[?25h"
+  - delay: 587
+    content: "\e[31m\e[1mp\e[m\x0F\b\e[31m\e[1mp\e[m\x0F\e[38;5;240mipenv install --python=`pyenv which python` --dev\e[39m\e[K\e[2;59H"
+  - delay: 179
+    content: "\b\e[31m\e[1mpy\e[m\x0F\e[K\r\n\e[K\e[2;60H"
+  - delay: 8
+    content: "\e[38;5;240menv versions\e[12D\e[m\x0F"
+  - delay: 117
+    content: "\b\b\e[31m\e[1mpye\e[m\x0F"
+  - delay: 70
+    content: "\b\e[31m\e[1men\e[m\x0F"
+  - delay: 35
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 38 PM \e[m\x0F\e[2;62H\e[34h\e[?25h"
+  - delay: 137
+    content: "\e[4D\e[32mpyenv\e[m\x0F"
+  - delay: 210
+    content: ' '
+  - delay: 117
+    content: v
+  - delay: 149
+    content: e
+  - delay: 73
+    content: r
+  - delay: 57
+    content: s
+  - delay: 118
+    content: i
+  - delay: 50
+    content: o
+  - delay: 90
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 39 PM \e[m\x0F\e[2;70H\e[34h\e[?25h"
+  - delay: 75
+    content: 'n'
+  - delay: 103
+    content: s
+  - delay: 334
+    content: "\e[?2004l\r\n"
+  - delay: 240
+    content: "  system\r\n  3.6.8\r\n"
+  - delay: 16
+    content: "* 3.7.3 (set by /home/gkapfham/working/source/gatorgrader/.python-version)\r\n                                                                                 \e[6;1H       \r"
+  - delay: 115
+    content: "\e[2;22r\e[7;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[6;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[32m\e[1m✔\e[m\x0F \e[K\e[1;23r\e[6;58H\e[?2004h"
+  - delay: 117
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 40 PM \e[m\x0F\e[6;58H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 41 PM \e[m\x0F\e[6;58H\e[34h\e[?25h"
+  - delay: 584
+    content: "\e[31m\e[1mp\e[m\x0F\b\e[31m\e[1mp\e[m\x0F\e[38;5;240myenv versions\e[13D\e[m\x0F"
+  - delay: 135
+    content: "\b\e[31m\e[1mpi\e[m\x0F            \e[12D"
+  - delay: 8
+    content: "\e[38;5;240mpenv install --python=`pyenv which python` --dev\e[39m\e[K\e[6;60H"
+  - delay: 67
+    content: "\b\b\e[32mpip\e[m\x0F"
+  - delay: 138
+    content: "\e[3D\e[31m\e[1mpipe\e[m\x0F"
+  - delay: 65
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 42 PM \e[m\x0F\e[6;62H\e[34h\e[?25h"
+  - delay: 39
+    content: "\b\e[31m\e[1men\e[m\x0F"
+  - delay: 216
+    content: "\e[5D\e[32mpipenv\e[m\x0F"
+  - delay: 182
+    content: ' '
+  - delay: 197
+    content: i
+  - delay: 74
+    content: 'n'
+  - delay: 35
+    content: s
+  - delay: 123
+    content: t
+  - delay: 134
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 43 PM \e[m\x0F\e[6;69H\e[34h\e[?25h"
+  - delay: 355
+    content: all --python=`pyenv which python` --dev
+  - delay: 645
+    content: "\e[?25l\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 44 PM \e[m\x0F\e[7;24H\e[34h\e[?25h"
+  - delay: 393
+    content: "\e[6;73H\e[36m--python=\e[33m`pyenv which python`\e[39m \e[36m--dev\e[m\x0F\r\n\e[?2004l"
+  - delay: 519
+    content: "\e[31mVirtualenv already exists!\r\n\e[m\x0F\e[1mRemoving existing virtualenv…\r\n\e[m\x0F"
+  - delay: 89
+    content: "\e[?25l\e[32m\e[1;3H0 kallistos python3.7───────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 45 PM \e[m\x0F\e[10;1H\e[34h\e[?25h"
+  - delay: 35
+    content: "\e[1mCreating a virtualenv for this project…\r\n\e[m\x0FPipfile: \e[31m\e[1m/home/gkapfham/working/source/gatorgrader/Pipfile\r\n\e[m\x0F"
+  - delay: 52
+    content: "\e[1mUsing\e[m\x0F \e[31m\e[1m/home/gkapfham/.pyenv/versions/3.7.3/bin/python\e[m\x0F \e[32m(3.7.3)\e[39m \e[1mto create virtualenv…\r\n\e[m\x0F\e[?25l⠋ Creating virtual environment...\e[K"
+  - delay: 82
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 82
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 79
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 26
+    content: "\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 46 PM \e[m\x0F\e[13;34H"
+  - delay: 53
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 64
+    content: "\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 47 PM \e[m\x0F\e[13;34H"
+  - delay: 17
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 21
+    content: "\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 48 PM \e[m\x0F\e[13;34H"
+  - delay: 60
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 58
+    content: "\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 49 PM \e[m\x0F\e[13;34H"
+  - delay: 22
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠙ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠹ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠸ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠼ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠴ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠦ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠧ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠇ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠏ Creating virtual environment..."
+  - delay: 81
+    content: "\r⠋ Creating virtual environment..."
+  - delay: 80
+    content: "\r⠙ Creating virtual environment...\e[34mUsing base prefix '/home/gkapfham/.pyenv/versions/3.7.3'\r\nNew python executable in /home/gkapfham/.local/share/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyenv/shims/python/bin/python\r\nInstalling setuptools, pip, wheel...\r\ndone.\r\nRunning virtualenv with interpreter /home/gkapfham/.pyenv/versions/3.7.3/bin/python\e[21;1H\e[m\x0F"
+  - delay: 12
+    content: "\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 50 PM \e[m\x0F\e[21;1H"
+  - delay: 66
+    content: "\e[34h\e[?25h\e[32m✔ Successfully created virtual environment!\e[39m \r\n"
+  - delay: 46
+    content: "\e[2;22r\e[22;1H\n\n\e[2AVirtualenv location: \e[32m/home/gkapfham/.local/share/virtualenvs/gatorgrader-EhHiZ3CP-/home/gkapfham/.pyenv/shims/python\e[1;23r\e[22;1H\e[m\x0F"
+  - delay: 85
+    content: "\e[1mInstalling dependencies from Pipfile.lock (04fd0e)…\e[m\x0F\e[2;22r\e[22;1H\n\e[1;23r\e[22;1H"
+  - delay: 74
+    content: "  \U0001F40D   \e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 0/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 6
+    content: "  \U0001F40D   \e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 1/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 2/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 8
+    content: "  \U0001F40D   \e[32m\e[1m▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 3/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 20
+    content: "  \U0001F40D   \e[32m\e[1m▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 4/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 38
+    content: "  \U0001F40D   \e[32m\e[1m▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 5/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 28
+    content: "  \U0001F40D   \e[32m\e[1m▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 6/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 7/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 48
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 8/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 9/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 10/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 60
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 11/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 44
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 12/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 52
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 13/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 55
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 14/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 53
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 15/71 — \e[30m00:00:00\r\e[m\x0F"
+  - delay: 202
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 51 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 52 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 53 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 54 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 55 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 939
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 16/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 6
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 17/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 18/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 9
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 19/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 21
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 20/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 19
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 56 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 29
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 21/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 35
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 22/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 28
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 23/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 40
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 24/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 49
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 25/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 31
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 26/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 57
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 27/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 47
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 28/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 45
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 29/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 30/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 51
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 31/71 — \e[30m00:00:18\r\e[m\x0F"
+  - delay: 551
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 57 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 58 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 59 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 00 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 01 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 02 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 03 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 78
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 32/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 33/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 9
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 34/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 35/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 22
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 36/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 31
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 37/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 38
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 38/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 40
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 39/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 37
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 40/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 45
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 41/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 59
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 42/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 44
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 43/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 44
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 44/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 44
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 45/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 56
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉▉\e[39m 46/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 56
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉\e[39m 47/71 — \e[30m00:00:14\r\e[m\x0F"
+  - delay: 383
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 04 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 05 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 06 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 07 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 08 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 09 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 10 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 11 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 161
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉▉\e[39m 48/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉\e[39m 49/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 10
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉\e[39m 50/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 8
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉▉\e[39m 51/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 22
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉\e[39m 52/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉▉\e[39m 53/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 36
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉\e[39m 54/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 38
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉▉\e[39m 55/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 38
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉\e[39m 56/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 40
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉▉\e[39m 57/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 38
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉\e[39m 58/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 32
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉▉\e[39m 59/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 70
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉\e[39m 60/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 48
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉\e[39m 61/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 40
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉▉\e[39m 62/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 44
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉\e[39m 63/71 — \e[30m00:00:08\r\e[m\x0F"
+  - delay: 334
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 12 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 13 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 14 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 15 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 16 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 17 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 18 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 19 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 20 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 21 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 22 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 23 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 24 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 668
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉▉\e[39m 64/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 6
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉\e[39m 65/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 9
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉▉\e[39m 66/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 7
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉\e[39m 67/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 27
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉▉\e[39m 68/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 40
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉\e[39m 69/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 32
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F\e[30m▉\e[39m 70/71 — \e[30m00:00:02\r\e[m\x0F"
+  - delay: 32
+    content: "  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F 71/71 — \e[30m00:00:02\r\e[m\x0F  \U0001F40D   \e[32m\e[1m▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉\e[m\x0F 71/71 —\e[2;22r\e[22;1H\n\e[21;47H \e[30m00:00:34\e[1;23r\e[22;1H\e[m\x0F"
+  - delay: 181
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 25 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 26 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 27 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 28 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 1000
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 29 PM \e[m\x0F\e[22;1H\e[34h\e[?25h"
+  - delay: 187
+    content: "\e[2;22r\e[22;1H\n\n\e[2ATo activate this project's virtualenv, run \e[31mpipenv shell\e[39m.\r\nAlternatively, run a command inside the virtualenv with \e[31mpipenv run\e[39m.\e[1;23r\e[22;1H"
+  - delay: 92
+    content: "                                                                                 \e[22;1H       \r"
+  - delay: 110
+    content: "\e[2;22r\e[22;1H\e[K\e[33m\e[1mgkapfham in \e[32msource/gatorgrader \e[31mfix/use-tox-local-tests\e[m\x0F \e[32m\e[1m✔\e[m\x0F \e[K\e[1;23r\e[22;58H\e[?2004h"
+  - delay: 612
+    content: "\e[?25l\e[32m\e[1;3H0 kallistos zsh─────────────────────────────────────────────────────────────────\e[H──\e[80C──\e[m\x0F\e[38;5;246m\e[23;1H  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 30 PM \e[m\x0F\e[22;58H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 31 PM \e[m\x0F\e[22;58H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 32 PM \e[m\x0F\e[22;58H\e[34h\e[?25h"
+  - delay: 1001
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 33 PM \e[m\x0F\e[22;58H\e[34h\e[?25h"
+  - delay: 526
+    content: "\e[32mt\e[m\x0F"
+  - delay: 8
+    content: "\b\e[32mt\e[38;5;240mmm\b\b\e[m\x0F"
+  - delay: 420
+    content: "\b\e[31m\e[1mtm\e[m\x0F"
+  - delay: 45
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 34 PM \e[m\x0F\e[22;60H\e[34h\e[?25h"
+  - delay: 130
+    content: "\b\b\e[31m\e[1mtmu\e[m\x0F"
+  - delay: 11
+    content: "\e[38;5;240mx kill-session\e[14D\e[m\x0F"
+  - delay: 96
+    content: "\e[3D\e[32mtmux\e[m\x0F"
+  - delay: 132
+    content: ' '
+  - delay: 428
+    content: kill-session
+  - delay: 205
+    content: "\e[?25l\e[38;5;246m\r\n  Session: GatorGrader-Code   Window: 0   Pane: 0   Flags: *   Location: 35 PM \e[m\x0F\e[22;75H\e[34h\e[?25h"
+  - delay: 61
+    content: "\e[2;22r\e[22;1H\n\e[1;23r\e[22;1H\e[?2004l"
+  - delay: 22
+    content: "\e[1;23r\e[m\x0F\e[?1l\e>\e[H\e[J\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[?1049l[exited]\r\n                                                                                 \r       \r"
+  - delay: 48
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[01;33mgkapfham in \e[01;32m~ \e[00m\e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 761
+    content: "\e[1m\e[31me\e[0m\e[39m"
+  - delay: 8
+    content: "\b\e[1m\e[31me\e[0m\e[39m\e[38;5;240mxit\e[39m\b\b\b"
+  - delay: 169
+    content: "\b\e[0m\e[32me\e[32mx\e[39m"
+  - delay: 126
+    content: "\b\b\e[1m\e[31me\e[1m\e[31mx\e[1m\e[31mi\e[0m\e[39m"
+  - delay: 92
+    content: "\b\b\b\e[0m\e[32me\e[0m\e[32mx\e[0m\e[32mi\e[32mt\e[39m"
+  - delay: 161
+    content: "\e[?1l\e>\e[?2004l\r\r\n"
