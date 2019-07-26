@@ -509,23 +509,6 @@ export default class Presentation extends Component {
         </Slide>
         {/* Slide } */}
 
-        {/* Slide { */}
-        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-          <Layout>
-            <Fill>
-              <Heading size={1} textColor="secondary">
-                Try multiple editors!
-              </Heading>
-              <Text height={standardHorizontalPadding * .25}>
-                &nbsp;
-              </Text>
-              <Heading size={1} textColor="tertiary">
-                Which one did you like best? Why?
-              </Heading>
-            </Fill>
-          </Layout>
-        </Slide>
-        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
@@ -1137,31 +1120,75 @@ export default class Presentation extends Component {
             </Fill>
           </Layout>
         </Slide>
-        {/* Slide { */}
+        {/* Slide } */}
 
-        {/* SECTION: Conclusion } */}
+        {/* SECTION: Conclusion { */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading size={1} textColor="secondary">
+                Try multiple editors!
+              </Heading>
+              <Text height={standardHorizontalPadding * .25}>
+                &nbsp;
+              </Text>
+              <Heading size={1} textColor="tertiary">
+                Which one did you like best? Why?
+              </Heading>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
+          <Heading fit size={3} textColor="secondary">
+            Learning Opportunities
+          </Heading>
+          <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <List bold textColor={darktext} textAlign="left" textSize="2em" margin={minimalHorizontalPadding} start={1}>
+            <ListItem margin={minimalHorizontalPadding}>Editing Documentation in Markdown</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Integration with Git and GitHub</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Automated source code refactoring</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Adding and removing dependencies</ListItem>
+            <ListItem margin={minimalHorizontalPadding}>Releasing a Python application to PyPI</ListItem>
+          </List>
+        </Slide>
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide align="center center" bgColor="primary">
           <Heading fit bold caps size={6} textColor="secondary">
             Want More?
-        </Heading>
+          </Heading>
           <Text fill bold textSize="1.7em" textColor="darktext">
-            Like Our Tweets and We'll Give You a
+            100 likes for a FREE blog post!
+          </Text>
+          <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Text fill bold textSize="1.7em" textColor="darktext">
+            On all things VS Code and Vim ...
           </Text>
           <Text fill bold textSize="1.7em" textColor="darktext">
-            FREE Blog Post
+            ... and what it's like to
           </Text>
           <Text fill bold textSize="1.7em" textColor="darktext">
-            On All Things VS Code and Vim
+            work as a "Father Daughter Duo"!
           </Text>
-          <Text fill bold textSize="1.7em" textColor="darktext">
-            And a Little Bit About What it's Like to
-          </Text>
-          <Text fill bold textSize="1.7em" textColor="darktext">
-            Work as a Father Daughter Duo
-          </Text>
-
+          <Layout>
+            <Text height={standardHorizontalPadding * .25}>
+              &nbsp;
+            </Text>
+          </Layout>
           <Layout>
             <Fill>
               <Text fill bold textSize="2em" textColor="tertiary">
@@ -1169,13 +1196,6 @@ export default class Presentation extends Component {
               </Text>
             </Fill>
           </Layout>
-
-          <Layout>
-            <Text height={minimalHorizontalPadding}>
-              &nbsp;
-            </Text>
-          </Layout>
-
           <Layout>
             <Fill>
               <Text fill bold textSize="2em" textColor="tertiary">
@@ -1188,23 +1208,15 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['slide']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
               <Heading margin={standardMargin * 3} size={1}><HeartGiant /></Heading>
               <Heading fit size={1} textColor="secondary">Just 100 Likes</Heading>
               <Text fill bold textColor="darktext">come on, you can do it</Text>
-              <Text fill bold textColor="darktext">it's not that hard</Text>
+              <Text fill bold textColor="darktext">it's not that hard!</Text>
             </Fill>
           </Layout>
-
         </Slide>
-        {/* Slide } */}
-
-        {/* Slide } */}
-        <Heading>
-          Greg turned Maddy Slide Here
-        </Heading>
         {/* Slide } */}
 
       </Deck>
