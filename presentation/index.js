@@ -774,7 +774,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={1} textColor="darktext">pipenv run cover</Heading>
+          <Heading fit size={1} textColor="darktext">Terminal command: pipenv run cover</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
