@@ -56,7 +56,6 @@ require('normalize.css');
 
 {/* Load all of the images */ }
 const images = {
-  GatorGrader: require('../assets/images/GatorGrader.png'),
   BlackFormatting: require('../assets/images/FFBlackFormatting.gif'),
   TabCompletion: require('../assets/images/FFTabComplete.gif'),
   Linting: require('../assets/images/FFLinting.gif'),
@@ -713,6 +712,18 @@ export default class Presentation extends Component {
               <Text fit size={1} textColor="secondary">Application Dependencies</Text>
             </Fill>
           </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Install Application Dependencies</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.VirtualEnvironment} />
         </Slide>
         {/* Slide } */}
 
