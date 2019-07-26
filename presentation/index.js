@@ -73,6 +73,7 @@ const images = {
   VirtualEnvironment: require('../assets/images/VirtualEnvironment.gif'),
   Hardcoded: require('../assets/images/Hardcoded.png'),
   VimBasics: require('../assets/images/vim-basics.gif'),
+  StartProject: require('../assets/images/start-project.gif'),
 };
 preloader(images);
 
@@ -688,6 +689,18 @@ export default class Presentation extends Component {
             </Text>
           </Layout>
           <Image src={images.VirtualEnvironment} />
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionIn={['slide', 'spin']} transitionOut={['slide']}>
+          <Heading fit size={1} textColor="darktext">Start Project in a Virtual Environment</Heading>
+          <Layout>
+            <Text height={minimalHorizontalPadding}>
+              &nbsp;
+            </Text>
+          </Layout>
+          <Image src={images.StartProject} />
         </Slide>
         {/* Slide } */}
 
