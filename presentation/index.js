@@ -1261,6 +1261,56 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transition={['']} bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+                VS Code
+          </Heading>
+            </Fill>
+            <Fill>
+              <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+                Vim
+          </Heading>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="ko" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="blissful" color="#FF8A65" />
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
+          <Layout>
+            <Fill>
+              <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+                VS Code
+          </Heading>
+            </Fill>
+            <Fill>
+              <Heading fill bold caps size={1} lineHeight={1.1} textColor="darktext">
+                Vim
+          </Heading>
+            </Fill>
+          </Layout>
+          <Layout>
+            <Fill>
+              <Backpack size={400} mood="blissful" color="#4DB6AC" />
+            </Fill>
+            <Fill>
+              <Cat size={400} mood="ko" color="#FF8A65" />
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transition={['']} bgColor="primary">
           <Heading fit size={3} textColor="secondary">
             Learning Opportunities
           </Heading>
