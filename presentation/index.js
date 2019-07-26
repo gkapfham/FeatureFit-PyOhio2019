@@ -763,10 +763,20 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
-              <Text fit size={1} textColor="secondary">Run Coverage</Text>
+              <Text fit size={1} textColor="secondary">Let's Start</Text>
+              <Text fit size={1} textColor="secondary">Programming in Python!</Text>
+            </Fill>
+          </Layout>
+        </Slide>
+        {/* Slide } */}
+
+        {/* Slide { */}
+        <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
+          <Layout>
+            <Fill>
+              <Text fit size={1} textColor="secondary">Calculate Test Suite Coverage</Text>
             </Fill>
           </Layout>
         </Slide>
@@ -802,11 +812,10 @@ export default class Presentation extends Component {
             </Fill>
           </Layout>
         </Slide>
-        {/* Slide { */}
+        {/* Slide } */}
 
         {/* Slide { */}
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
-
           <Layout>
             <Fill>
               <Text fit size={1} textColor="secondary">Go to Failed</Text>
