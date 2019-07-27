@@ -630,7 +630,7 @@ export default class Presentation extends Component {
 
         {/* Slide { */}
         <Slide transitionIn={['slide']} transitionOut={['slide']}>
-          <Heading fit size={2} textColor="darktext">Overview of Neovim's Configuration File</Heading>
+          <Heading fit size={2} textColor="darktext">Overview of Vim's Configuration File</Heading>
           <Layout>
             <Text height={minimalHorizontalPadding}>
               &nbsp;
@@ -646,7 +646,7 @@ export default class Presentation extends Component {
             Development Tools
           </Heading>
           <Heading size={4} textColor="tertiary">
-            Useful in both VS Code and Neovim
+            Useful in both VS Code and Vim
           </Heading>
           <Layout>
             <Fill>
