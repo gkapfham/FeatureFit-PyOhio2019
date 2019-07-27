@@ -1167,7 +1167,7 @@ export default class Presentation extends Component {
           <Layout>
             <Fill>
               <Text fill bold caps size={15} lineHeight={5.1} textColor="darktext">
-                Both support fast syntax highlighting, but Vim requires an extra package
+                Both support fast syntax highlighting, but Vim requires an extra plugin
               </Text>
             </Fill>
           </Layout>
