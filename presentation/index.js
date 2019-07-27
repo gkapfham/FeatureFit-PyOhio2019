@@ -860,7 +860,7 @@ export default class Presentation extends Component {
                   &nbsp;
                 </Text>
               </Layout>
-              <Text bold fit size={4} textColor="tertiary">My dad: "It is 100%! Wait, what?"</Text>
+              <Text bold fit size={4} textColor="tertiary">"It is 100%! Wait, what?"</Text>
             </Fill>
           </Layout>
         </Slide>
