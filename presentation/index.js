@@ -1081,7 +1081,7 @@ export default class Presentation extends Component {
               &nbsp;
             </Text>
           </Layout>
-          <Image src={images.FailedTest} />
+          <Image src={images.Typecast} />
         </Slide>
         {/* Slide } */}
 
