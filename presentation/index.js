@@ -853,7 +853,7 @@ export default class Presentation extends Component {
         <Slide transitionDuration={0} transition={['']} align="center center" bgColor="primary">
           <Layout>
             <Fill>
-              <Text bold fit size={1} textColor="secondary">Wait, I thought</Text>
+              <Text bold fit size={1} textColor="secondary">I thought</Text>
               <Text bold fit size={1} textColor="secondary">coverage was 100%?</Text>
               <Layout>
                 <Text height={minimalHorizontalPadding}>
