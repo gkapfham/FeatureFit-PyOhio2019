@@ -34,4 +34,4 @@ notifications:
 script:
   - mdl README.md
   - npm run lint
-  - npm run build
+  - npm build
