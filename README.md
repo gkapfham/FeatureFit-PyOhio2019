@@ -20,7 +20,7 @@ Awesome](https://fontawesome.com/).
 You can type the following command if you want to clone this repository:
 
 ```shell
-git clone https://github.com/gkapfham/pyohio2018-presentation.git
+git clone https://github.com/gkapfham/FeatureFit-PyOhio2019
 ```
 
 Now you should install of all of the packages needed for the presentation:
