@@ -1,4 +1,4 @@
-# FeatureFit-PyOhio2019
+# pyohio2019-presentation
 
 [![Build
 Status](https://travis-ci.com/gkapfham/FeatureFit-PyOhio2019.svg?branch=master)](https://travis-ci.com/gkapfham/FeatureFit-PyOhio2019)
