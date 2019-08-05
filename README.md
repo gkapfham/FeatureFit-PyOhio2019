@@ -1,20 +1,19 @@
-# pyohio2019-presentation
+# FeatureFit-PyOhio2019
 
 [![Build
 Status](https://travis-ci.com/gkapfham/FeatureFit-PyOhio2019.svg?branch=master)](https://travis-ci.com/gkapfham/FeatureFit-PyOhio2019)
 
 This repository contains the HTML source code and additional resources for a
 presentation that I, [Gregory M.
-Kapfhammer](https://www.gregorykapfhammer.com/), gave during at the 2018 edition
-of the PyOhio conference. The presentation's source code uses the
-[Spectacle](https://github.com/FormidableLabs/spectacle) framework to control
-the display of each slide. I have developed a custom theme for the slides that
-manages the formatting, color scheme, and the use of icons. All of the colors in
-the presentation come from the Material Design color palette. Finally, the
-presentation uses icons from [Font Awesome](https://fontawesome.com/) and
-customized versions of the [Spectacle
-Code](https://github.com/jamiebuilds/spectacle-code-slide) and [Spectacle
-Terminal](https://github.com/elijahmanor/spectacle-terminal) plugins.
+Kapfhammer](https://www.gregorykapfhammer.com/), gave during at the 2019 edition
+of the PyOhio conference with [Madelyn
+Kapfhammer](https://www.madelynkapfhammer.com/). The presentation's source code
+uses the [Spectacle](https://github.com/FormidableLabs/spectacle) framework to
+control the display of each slide. I have developed a custom theme for the
+slides that manages the formatting, color scheme, and the use of icons. All of
+the colors in the presentation come from the Material Design color palette.
+Finally, the presentation uses icons from [Font
+Awesome](https://fontawesome.com/).
 
 ## Installation Instructions
 
